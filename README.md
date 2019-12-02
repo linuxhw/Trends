@@ -1,0 +1,2 @@
+# Trends
+Hardware Trends
