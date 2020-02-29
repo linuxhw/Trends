@@ -53,6 +53,9 @@ Contents
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
 - [ Drive Status             ](#drive-status)
+- [ Storage Vendor           ](#storage-vendor)
+- [ Storage Model            ](#storage-model)
+- [ Storage Kind             ](#storage-kind)
 - [ CPU Vendor               ](#cpu-vendor)
 - [ CPU Model                ](#cpu-model)
 - [ CPU Model Family         ](#cpu-model-family)
@@ -327,14 +330,13 @@ Motherboard manufacturer
 | Foxconn             | 4         | 23.53%  |
 | Acer                | 3         | 17.65%  |
 | Hewlett-Packard     | 2         | 11.76%  |
+| ASRock              | 2         | 11.76%  |
 | Semp Toshiba        | 1         | 5.88%   |
 | MSI                 | 1         | 5.88%   |
 | Huanan              | 1         | 5.88%   |
 | Gigabyte Technology | 1         | 5.88%   |
 | Digiboard           | 1         | 5.88%   |
 | ASUSTek Computer    | 1         | 5.88%   |
-| ASRock              | 1         | 5.88%   |
-| Unknown             | 1         | 5.88%   |
 
 Model
 -----
@@ -345,22 +347,22 @@ Motherboard model
 
 ![Model](./images/line_chart/node_model.svg)
 
-| Name                 | Computers | Percent |
-|----------------------|-----------|---------|
-| G31MX Series         | 2         | 11.76%  |
-| Aspire TC-885        | 2         | 11.76%  |
-| 500B Microtower      | 2         | 11.76%  |
-| X79 VAA1             | 1         | 5.88%   |
-| STI                  | 1         | 5.88%   |
-| MS-7C37              | 1         | 5.88%   |
-| MPxx                 | 1         | 5.88%   |
-| M61SME-S2L           | 1         | 5.88%   |
-| M5A78L-M PLUS/USB3   | 1         | 5.88%   |
-| EliteDesk 800 G2 SFF | 1         | 5.88%   |
-| Aspire XC-830        | 1         | 5.88%   |
-| A88M-G               | 1         | 5.88%   |
-| 550-153w             | 1         | 5.88%   |
-| Unknown              | 1         | 5.88%   |
+| Name                    | Computers | Percent |
+|-------------------------|-----------|---------|
+| Foxconn G31MX Series    | 2         | 11.76%  |
+| Foxconn 500B Microtower | 2         | 11.76%  |
+| Acer Aspire TC-885      | 2         | 11.76%  |
+| Semp Toshiba STI        | 1         | 5.88%   |
+| MSI MS-7C37             | 1         | 5.88%   |
+| Huanan X79 VAA1         | 1         | 5.88%   |
+| HP EliteDesk 800 G2 SFF | 1         | 5.88%   |
+| HP 550-153w             | 1         | 5.88%   |
+| Gigabyte M61SME-S2L     | 1         | 5.88%   |
+| Digiboard MPxx          | 1         | 5.88%   |
+| ASUS M5A78L-M PLUS/USB3 | 1         | 5.88%   |
+| ASRock A88M-G           | 1         | 5.88%   |
+| ASRock 990FX Killer     | 1         | 5.88%   |
+| Acer Aspire XC-830      | 1         | 5.88%   |
 
 Model Family
 ------------
@@ -385,7 +387,7 @@ Motherboard model prefix
 | Digiboard MPxx      | 1         | 5.88%   |
 | ASUS M5A78L-M       | 1         | 5.88%   |
 | ASRock A88M-G       | 1         | 5.88%   |
-| Unknown             | 1         | 5.88%   |
+| ASRock 990FX        | 1         | 5.88%   |
 
 MFG Year
 --------
@@ -432,8 +434,7 @@ Enabled or disabled
 
 | State    | Computers | Percent |
 |----------|-----------|---------|
-| Disabled | 14        | 82.35%  |
-| Unknown  | 3         | 17.65%  |
+| Disabled | 17        | 100%    |
 
 Coreboot
 --------
@@ -517,7 +518,7 @@ Hard drive models
 |-------------------------|-----------|---------|
 | SV300S37A120G 120GB SSD | 2         | 9.52%   |
 | ST3160812AS 160GB       | 2         | 9.52%   |
-| SD/MMC/MS PRO 31GB      | 2         | 9.52%   |
+| SD/MMC/MS PRO 64GB      | 2         | 9.52%   |
 | HDT722525DLA380 250GB   | 2         | 9.52%   |
 | DT01ACA100 1TB          | 2         | 9.52%   |
 | ST500DM002-1BD142 500GB | 1         | 4.76%   |
@@ -530,7 +531,7 @@ Hard drive models
 | HD161GJ 160GB           | 1         | 4.76%   |
 | H5-60G PLUS             | 1         | 4.76%   |
 | CT240BX200SSD1 240GB    | 1         | 4.76%   |
-| Backup+ Hub BK 160GB    | 1         | 4.76%   |
+| Backup+ Hub BK 10TB     | 1         | 4.76%   |
 
 Drive Kind
 ----------
@@ -572,9 +573,10 @@ Size of hard drive
 
 | Size in TB | Computers | Drives | Percent |
 |------------|-----------|--------|---------|
-| 0.01-0.5   | 14        | 16     | 73.68%  |
-| 0.51-1.0   | 3         | 3      | 15.79%  |
-| 1.01-2.0   | 2         | 2      | 10.53%  |
+| 0.01-0.5   | 14        | 15     | 70%     |
+| 0.51-1.0   | 3         | 3      | 15%     |
+| 1.01-2.0   | 2         | 2      | 10%     |
+| 4.01-10.0  | 1         | 1      | 5%      |
 
 Space Total
 -----------
@@ -659,6 +661,72 @@ Number of failed and malfunc. drives
 | Status   | Computers | Drives | Percent |
 |----------|-----------|--------|---------|
 | Detected | 16        | 21     | 100%    |
+
+Storage Vendor
+--------------
+
+Storage controller vendors
+
+![Storage Vendor](./images/pie_chart/storage_vendor.svg)
+
+![Storage Vendor](./images/line_chart/storage_vendor.svg)
+
+| Vendor              | Computers | Percent |
+|---------------------|-----------|---------|
+| Intel               | 12        | 57.14%  |
+| AMD                 | 4         | 19.05%  |
+| Sandisk             | 1         | 4.76%   |
+| Samsung Electronics | 1         | 4.76%   |
+| Phison Electronics  | 1         | 4.76%   |
+| Nvidia              | 1         | 4.76%   |
+| ASMedia Technology  | 1         | 4.76%   |
+
+Storage Model
+-------------
+
+Storage controller models
+
+![Storage Model](./images/pie_chart/storage_model.svg)
+
+![Storage Model](./images/line_chart/storage_model.svg)
+
+| Model                                                                    | Computers | Percent |
+|--------------------------------------------------------------------------|-----------|---------|
+| NM10/ICH7 Family SATA Controller [IDE mode]                              | 5         | 16.67%  |
+| 82801G (ICH7 Family) IDE Controller                                      | 5         | 16.67%  |
+| FCH SATA Controller [AHCI mode]                                          | 2         | 6.67%   |
+| Cannon Lake PCH SATA AHCI Controller                                     | 2         | 6.67%   |
+| WD Black 2018/PC SN520 NVMe SSD                                          | 1         | 3.33%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [IDE mode]                             | 1         | 3.33%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode]                            | 1         | 3.33%   |
+| SB7x0/SB8x0/SB9x0 IDE Controller                                         | 1         | 3.33%   |
+| SATA controller                                                          | 1         | 3.33%   |
+| Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]  | 1         | 3.33%   |
+| NVMe SSD Controller SM961/PM961                                          | 1         | 3.33%   |
+| MCP61 SATA Controller                                                    | 1         | 3.33%   |
+| MCP61 IDE                                                                | 1         | 3.33%   |
+| FCH IDE Controller                                                       | 1         | 3.33%   |
+| E16 PCIe4 NVMe Controller                                                | 1         | 3.33%   |
+| E12 NVMe Controller                                                      | 1         | 3.33%   |
+| C600/X79 series chipset 6-Port SATA AHCI Controller                      | 1         | 3.33%   |
+| Atom Processor E3800 Series SATA AHCI Controller                         | 1         | 3.33%   |
+| ASM1062 Serial ATA Controller                                            | 1         | 3.33%   |
+| 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] | 1         | 3.33%   |
+
+Storage Kind
+------------
+
+Kind of storage controller (IDE, SATA, NVMe, SAS, ...)
+
+![Storage Kind](./images/pie_chart/storage_kind.svg)
+
+![Storage Kind](./images/line_chart/storage_kind.svg)
+
+| Kind | Computers | Percent |
+|------|-----------|---------|
+| SATA | 11        | 50%     |
+| IDE  | 8         | 36.36%  |
+| NVMe | 3         | 13.64%  |
 
 CPU Vendor
 ----------

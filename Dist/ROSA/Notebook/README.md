@@ -53,6 +53,9 @@ Contents
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
 - [ Drive Status             ](#drive-status)
+- [ Storage Vendor           ](#storage-vendor)
+- [ Storage Model            ](#storage-model)
+- [ Storage Kind             ](#storage-kind)
 - [ CPU Vendor               ](#cpu-vendor)
 - [ CPU Model                ](#cpu-model)
 - [ CPU Model Family         ](#cpu-model-family)
@@ -210,7 +213,8 @@ Desktop Environment
 
 | Name  | Computers | Percent |
 |-------|-----------|---------|
-| KDE5  | 166       | 95.4%   |
+| KDE4  | 113       | 64.94%  |
+| KDE5  | 53        | 30.46%  |
 | LXQt  | 3         | 1.72%   |
 | MATE  | 2         | 1.15%   |
 | GNOME | 2         | 1.15%   |
@@ -225,9 +229,9 @@ X11 or Wayland
 
 ![Display Server](./images/line_chart/os_display_server.svg)
 
-| Name    | Computers | Percent |
-|---------|-----------|---------|
-| Unknown | 174       | 100%    |
+| Name | Computers | Percent |
+|------|-----------|---------|
+| X11  | 174       | 100%    |
 
 OS Lang
 -------
@@ -450,68 +454,68 @@ Motherboard model
 
 ![Model](./images/line_chart/node_model.svg)
 
-| Name                                  | Computers | Percent |
-|---------------------------------------|-----------|---------|
-| R519/R719                             | 3         | 1.72%   |
-| IdeaPad 320-15IKB 80XL                | 3         | 1.72%   |
-| RV409/RV509/RV709                     | 2         | 1.15%   |
-| Pavilion dv6                          | 2         | 1.15%   |
-| Notebook                              | 2         | 1.15%   |
-| NC210/NC110                           | 2         | 1.15%   |
-| N53SV                                 | 2         | 1.15%   |
-| IdeaPad S110 20126                    | 2         | 1.15%   |
-| GX60 1AC                              | 2         | 1.15%   |
-| G580 20150                            | 2         | 1.15%   |
-| G570 20079                            | 2         | 1.15%   |
-| G500 20236                            | 2         | 1.15%   |
-| Compaq Presario CQ60                  | 2         | 1.15%   |
-| B590 20208                            | 2         | 1.15%   |
-| Unknown                               | 2         | 1.15%   |
-| Z50-75 80EC                           | 1         | 0.57%   |
-| X55U                                  | 1         | 0.57%   |
-| X550WA                                | 1         | 0.57%   |
-| X541UVK                               | 1         | 0.57%   |
-| X502CA                                | 1         | 0.57%   |
-| X101CH                                | 1         | 0.57%   |
-| VPCSA2V9R                             | 1         | 0.57%   |
-| VPCEH2J1R                             | 1         | 0.57%   |
-| VPCEB3B4R                             | 1         | 0.57%   |
-| Vostro A860                           | 1         | 0.57%   |
-| VIWGQ                                 | 1         | 0.57%   |
-| VivoBook 15_ASUS Laptop X507MA_X507MA | 1         | 0.57%   |
-| Venue 11 Pro 7130 vPro                | 1         | 0.57%   |
-| V580c 20160                           | 1         | 0.57%   |
-| V570c HuronRiver Platform             | 1         | 0.57%   |
-| V310-15IKB 80T3                       | 1         | 0.57%   |
-| UL30A                                 | 1         | 0.57%   |
-| TravelMate 5744Z                      | 1         | 0.57%   |
-| ThinkPad X220 Tablet 42962BG          | 1         | 0.57%   |
-| ThinkPad X220 4291W3B                 | 1         | 0.57%   |
-| ThinkPad X121e 3053A52                | 1         | 0.57%   |
-| ThinkPad T440p 20AWS0V302             | 1         | 0.57%   |
-| ThinkPad R61 77321EG                  | 1         | 0.57%   |
-| Satellite X200                        | 1         | 0.57%   |
-| Satellite L655                        | 1         | 0.57%   |
-| Satellite C850-BQK                    | 1         | 0.57%   |
-| Satellite C55t-C                      | 1         | 0.57%   |
-| RV411/RV511/E3511/S3511               | 1         | 0.57%   |
-| RV408/RV508                           | 1         | 0.57%   |
-| RoverBook                             | 1         | 0.57%   |
-| RBT                                   | 1         | 0.57%   |
-| R540/R580/R780/SA41/E452              | 1         | 0.57%   |
-| R528/R728                             | 1         | 0.57%   |
-| R40/R41                               | 1         | 0.57%   |
-| ProBook 6545b                         | 1         | 0.57%   |
-| ProBook 650 G1                        | 1         | 0.57%   |
-| ProBook 4545s                         | 1         | 0.57%   |
-| ProBook 4530s                         | 1         | 0.57%   |
-| ProBook 430 G3                        | 1         | 0.57%   |
-| Pro, Std, Elt Series                  | 1         | 0.57%   |
-| Presario V3000 (GC170PA#UUF)          | 1         | 0.57%   |
-| Pavilion Notebook                     | 1         | 0.57%   |
-| Pavilion dv7                          | 1         | 0.57%   |
-| Pavilion dv2                          | 1         | 0.57%   |
-| Pavilion 15                           | 1         | 0.57%   |
+| Name                                         | Computers | Percent |
+|----------------------------------------------|-----------|---------|
+| Samsung Electronics R519/R719                | 3         | 1.72%   |
+| Lenovo IdeaPad 320-15IKB 80XL                | 3         | 1.72%   |
+| Samsung Electronics RV409/RV509/RV709        | 2         | 1.15%   |
+| Samsung Electronics NC210/NC110              | 2         | 1.15%   |
+| MSI GX60 1AC                                 | 2         | 1.15%   |
+| Lenovo IdeaPad S110 20126                    | 2         | 1.15%   |
+| Lenovo G580 20150                            | 2         | 1.15%   |
+| Lenovo G570 20079                            | 2         | 1.15%   |
+| Lenovo G500 20236                            | 2         | 1.15%   |
+| Lenovo B590 20208                            | 2         | 1.15%   |
+| HP Pavilion dv6                              | 2         | 1.15%   |
+| HP Notebook                                  | 2         | 1.15%   |
+| HP Compaq Presario CQ60                      | 2         | 1.15%   |
+| ASUS N53SV                                   | 2         | 1.15%   |
+| Unknown                                      | 2         | 1.15%   |
+| Toshiba Satellite X200                       | 1         | 0.57%   |
+| Toshiba Satellite L655                       | 1         | 0.57%   |
+| Toshiba Satellite C850-BQK                   | 1         | 0.57%   |
+| Toshiba Satellite C55t-C                     | 1         | 0.57%   |
+| Sony VPCSA2V9R                               | 1         | 0.57%   |
+| Sony VPCEH2J1R                               | 1         | 0.57%   |
+| Sony VPCEB3B4R                               | 1         | 0.57%   |
+| Samsung Electronics RV411/RV511/E3511/S3511  | 1         | 0.57%   |
+| Samsung Electronics RV408/RV508              | 1         | 0.57%   |
+| Samsung Electronics R540/R580/R780/SA41/E452 | 1         | 0.57%   |
+| Samsung Electronics R528/R728                | 1         | 0.57%   |
+| Samsung Electronics R40/R41                  | 1         | 0.57%   |
+| Samsung Electronics NC10                     | 1         | 0.57%   |
+| Samsung Electronics N102SP/N100SP/N101SP     | 1         | 0.57%   |
+| Samsung Electronics 305U1A                   | 1         | 0.57%   |
+| Samsung Electronics 305E4Z/305E5Z/305E7Z     | 1         | 0.57%   |
+| Samsung Electronics 300V3A/300V4A/300V5A     | 1         | 0.57%   |
+| Pegatron A17                                 | 1         | 0.57%   |
+| Packard Bell EasyNote TV43HC                 | 1         | 0.57%   |
+| Packard Bell EasyNote TK85                   | 1         | 0.57%   |
+| Packard Bell EasyNote TJ71                   | 1         | 0.57%   |
+| Packard Bell EasyNote TE69BM                 | 1         | 0.57%   |
+| Packard Bell EasyNote TE11HC                 | 1         | 0.57%   |
+| Packard Bell DOTS E2                         | 1         | 0.57%   |
+| Packard Bell dot u                           | 1         | 0.57%   |
+| Notebook RBT                                 | 1         | 0.57%   |
+| MSI MS-16Y1                                  | 1         | 0.57%   |
+| MSI CX600                                    | 1         | 0.57%   |
+| Medion P7624                                 | 1         | 0.57%   |
+| Medion P6612                                 | 1         | 0.57%   |
+| LG Electronics C1-A577R1                     | 1         | 0.57%   |
+| Lenovo Z50-75 80EC                           | 1         | 0.57%   |
+| Lenovo VIWGQ                                 | 1         | 0.57%   |
+| Lenovo V580c 20160                           | 1         | 0.57%   |
+| Lenovo V570c HuronRiver Platform             | 1         | 0.57%   |
+| Lenovo V310-15IKB 80T3                       | 1         | 0.57%   |
+| Lenovo ThinkPad X220 Tablet 42962BG          | 1         | 0.57%   |
+| Lenovo ThinkPad X220 4291W3B                 | 1         | 0.57%   |
+| Lenovo ThinkPad X121e 3053A52                | 1         | 0.57%   |
+| Lenovo ThinkPad T440p 20AWS0V302             | 1         | 0.57%   |
+| Lenovo ThinkPad R61 77321EG                  | 1         | 0.57%   |
+| Lenovo M30-70 20446                          | 1         | 0.57%   |
+| Lenovo IdeaPad Z510 20287                    | 1         | 0.57%   |
+| Lenovo IdeaPad Y550 20017                    | 1         | 0.57%   |
+| Lenovo IdeaPad S10-2 20027                   | 1         | 0.57%   |
 
 Model Family
 ------------
@@ -636,8 +640,7 @@ Enabled or disabled
 
 | State    | Computers | Percent |
 |----------|-----------|---------|
-| Disabled | 117       | 67.24%  |
-| Unknown  | 57        | 32.76%  |
+| Disabled | 174       | 100%    |
 
 Coreboot
 --------
@@ -700,22 +703,22 @@ Hard drive vendors
 
 | Vendor              | Computers | Drives | Percent |
 |---------------------|-----------|--------|---------|
-| WDC                 | 42        | 45     | 20%     |
-| Seagate             | 39        | 40     | 18.57%  |
-| Toshiba             | 20        | 20     | 9.52%   |
-| Hitachi             | 20        | 21     | 9.52%   |
-| Samsung Electronics | 17        | 17     | 8.1%    |
-| Kingston            | 14        | 14     | 6.67%   |
-| HGST                | 13        | 13     | 6.19%   |
-| Unknown             | 8         | 9      | 3.81%   |
-| Intel               | 5         | 5      | 2.38%   |
-| SanDisk             | 4         | 4      | 1.9%    |
-| A-DATA Technology   | 4         | 4      | 1.9%    |
-| Transcend           | 2         | 2      | 0.95%   |
-| LITEONIT            | 2         | 3      | 0.95%   |
-| Crucial             | 2         | 2      | 0.95%   |
-| Corsair             | 2         | 2      | 0.95%   |
-| China               | 2         | 2      | 0.95%   |
+| WDC                 | 42        | 43     | 20.1%   |
+| Seagate             | 39        | 39     | 18.66%  |
+| Toshiba             | 20        | 20     | 9.57%   |
+| Hitachi             | 20        | 20     | 9.57%   |
+| Samsung Electronics | 17        | 17     | 8.13%   |
+| Kingston            | 14        | 14     | 6.7%    |
+| HGST                | 13        | 13     | 6.22%   |
+| Unknown             | 8         | 9      | 3.83%   |
+| Intel               | 5         | 5      | 2.39%   |
+| SanDisk             | 4         | 4      | 1.91%   |
+| A-DATA Technology   | 3         | 3      | 1.44%   |
+| Transcend           | 2         | 2      | 0.96%   |
+| LITEONIT            | 2         | 2      | 0.96%   |
+| Crucial             | 2         | 2      | 0.96%   |
+| Corsair             | 2         | 2      | 0.96%   |
+| China               | 2         | 2      | 0.96%   |
 | Union Memory        | 1         | 1      | 0.48%   |
 | Team                | 1         | 1      | 0.48%   |
 | SPCC                | 1         | 1      | 0.48%   |
@@ -742,66 +745,66 @@ Hard drive models
 
 | Model                        | Computers | Percent |
 |------------------------------|-----------|---------|
-| ST9500325AS 500GB            | 8         | 3.69%   |
-| HTS545050A7E680 500GB        | 4         | 1.84%   |
-| HM250HI 250GB                | 4         | 1.84%   |
-| WDS240G2G0A-00JH30 240GB SSD | 3         | 1.38%   |
-| ST9320325AS 320GB            | 3         | 1.38%   |
-| ST500LM012 HN-M500MBB 500GB  | 3         | 1.38%   |
-| ST1000LM035-1RK172 1TB       | 3         | 1.38%   |
-| SA400S37120G 120GB SSD       | 3         | 1.38%   |
-| MQ01ABF050 500GB             | 3         | 1.38%   |
-| HTS543232A7A384 320GB        | 3         | 1.38%   |
-| HTS541010A9E680 1TB          | 3         | 1.38%   |
-| WDS120G2G0A-00JH30 120GB SSD | 2         | 0.92%   |
-| WD5000LPCX-00VHAT0 500GB     | 2         | 0.92%   |
-| WD5000BPVT-24HXZT3 500GB     | 2         | 0.92%   |
-| WD3200BPVT-22JJ5T0 320GB     | 2         | 0.92%   |
-| WD1600BEVT-22ZCT0 160GB      | 2         | 0.92%   |
-| SV300S37A60G 64GB SSD        | 2         | 0.92%   |
-| SU650 120GB SSD              | 2         | 0.92%   |
-| SU32G  32GB                  | 2         | 0.92%   |
-| ST9250315AS 250GB            | 2         | 0.92%   |
-| ST500LT012-1DG142 500GB      | 2         | 0.92%   |
-| ST320LT020-9YG142 320GB      | 2         | 0.92%   |
-| SSD 120GB                    | 2         | 0.92%   |
-| SA400S37240G 240GB SSD       | 2         | 0.92%   |
-| MQ01ABF0 500GB               | 2         | 0.92%   |
-| MQ01ABD100 1TB               | 2         | 0.92%   |
-| MK1237GSX 120GB              | 2         | 0.92%   |
-| HTS725050A7E630 500GB        | 2         | 0.92%   |
-| HTS721010A9E630 1TB          | 2         | 0.92%   |
-| HTS545050B9A300 500GB        | 2         | 0.92%   |
-| HTS545050A7E380 500GB        | 2         | 0.92%   |
-| HTS54322 250GB               | 2         | 0.92%   |
-| WD7500BPVT-26HXZT3 752GB     | 1         | 0.46%   |
-| WD7500BPKX-75HPJT0 752GB     | 1         | 0.46%   |
-| WD5000LPVX-75V0TT0 500GB     | 1         | 0.46%   |
-| WD5000LPVX-60V0TT0 500GB     | 1         | 0.46%   |
-| WD5000LPVT-22G33T0 500GB     | 1         | 0.46%   |
-| WD5000LPVT-2 500GB           | 1         | 0.46%   |
-| WD5000LPLX-00ZNTT0 500GB     | 1         | 0.46%   |
-| WD5000LPCX-60VHAT1 500GB     | 1         | 0.46%   |
-| WD5000LPCX-24VHAT0 500GB     | 1         | 0.46%   |
-| WD5000LPCX-22VHAT0 500GB     | 1         | 0.46%   |
-| WD5000LPCX-21VHAT0 500GB     | 1         | 0.46%   |
-| WD5000BPVT-80HXZT3 500GB     | 1         | 0.46%   |
-| WD3200LPCX-24C6HT0 320GB     | 1         | 0.46%   |
-| WD3200BPVT-5 320GB           | 1         | 0.46%   |
-| WD3200BPVT-22ZEST0 320GB     | 1         | 0.46%   |
-| WD3200BEVT-80A0RT0 320GB     | 1         | 0.46%   |
-| WD3200BEVT-75ZCT0 320GB      | 1         | 0.46%   |
-| WD3200BEVT-22ZCT0 320GB      | 1         | 0.46%   |
-| WD3200BEVT-22A23T0 320GB     | 1         | 0.46%   |
-| WD2500BPVT-75JJ5T0 250GB     | 1         | 0.46%   |
-| WD2500BEVS-22UST0 250GB      | 1         | 0.46%   |
-| WD2500BEKT-60PVMT0 250GB     | 1         | 0.46%   |
-| WD1600BEVT-8 160GB           | 1         | 0.46%   |
-| WD1600BEVT-75ZCT2 160GB      | 1         | 0.46%   |
-| WD1600BEVS-0 160GB           | 1         | 0.46%   |
-| WD10SPZX-24Z10T0 1TB         | 1         | 0.46%   |
-| WD10SPZX-24Z10 1TB           | 1         | 0.46%   |
-| WD10SPZX-21Z10T0 1TB         | 1         | 0.46%   |
+| ST9500325AS 500GB            | 8         | 3.79%   |
+| MQ01ABF050 500GB             | 5         | 2.37%   |
+| ST1000LM035-1RK172 1TB       | 4         | 1.9%    |
+| SA400S37120G 120GB SSD       | 4         | 1.9%    |
+| HTS545050A7E680 500GB        | 4         | 1.9%    |
+| HM250HI 250GB                | 4         | 1.9%    |
+| WDS240G2G0A-00JH30 240GB SSD | 3         | 1.42%   |
+| ST9320325AS 320GB            | 3         | 1.42%   |
+| ST500LT012-1DG142 500GB      | 3         | 1.42%   |
+| ST500LM012 HN-M500MBB 500GB  | 3         | 1.42%   |
+| HTS543232A7A384 320GB        | 3         | 1.42%   |
+| HTS541010A9E680 1TB          | 3         | 1.42%   |
+| WDS120G2G0A-00JH30 120GB SSD | 2         | 0.95%   |
+| WD5000LPCX-00VHAT0 500GB     | 2         | 0.95%   |
+| WD5000BPVT-24HXZT3 500GB     | 2         | 0.95%   |
+| WD3200BPVT-22JJ5T0 320GB     | 2         | 0.95%   |
+| WD1600BEVT-22ZCT0 160GB      | 2         | 0.95%   |
+| SV300S37A60G 64GB SSD        | 2         | 0.95%   |
+| SU32G  32GB                  | 2         | 0.95%   |
+| ST9250315AS 250GB            | 2         | 0.95%   |
+| ST320LT020-9YG142 320GB      | 2         | 0.95%   |
+| SSD 120GB                    | 2         | 0.95%   |
+| SA400S37240G 240GB SSD       | 2         | 0.95%   |
+| MQ01ABD100 1TB               | 2         | 0.95%   |
+| MK1237GSX 120GB              | 2         | 0.95%   |
+| HTS725050A7E630 500GB        | 2         | 0.95%   |
+| HTS721010A9E630 1TB          | 2         | 0.95%   |
+| HTS545050B9A300 500GB        | 2         | 0.95%   |
+| HTS545050A7E380 500GB        | 2         | 0.95%   |
+| HTS543225L9A300 250GB        | 2         | 0.95%   |
+| WD7500BPVT-26HXZT3 752GB     | 1         | 0.47%   |
+| WD7500BPKX-75HPJT0 752GB     | 1         | 0.47%   |
+| WD5000LPVX-75V0TT0 500GB     | 1         | 0.47%   |
+| WD5000LPVX-60V0TT0 500GB     | 1         | 0.47%   |
+| WD5000LPVT-22G33T0 500GB     | 1         | 0.47%   |
+| WD5000LPLX-00ZNTT0 500GB     | 1         | 0.47%   |
+| WD5000LPCX-60VHAT1 500GB     | 1         | 0.47%   |
+| WD5000LPCX-24VHAT0 500GB     | 1         | 0.47%   |
+| WD5000LPCX-22VHAT0 500GB     | 1         | 0.47%   |
+| WD5000LPCX-21VHAT0 500GB     | 1         | 0.47%   |
+| WD5000BPVT-80HXZT3 500GB     | 1         | 0.47%   |
+| WD3200LPCX-24C6HT0 320GB     | 1         | 0.47%   |
+| WD3200BPVT-55JJ5T0 320GB     | 1         | 0.47%   |
+| WD3200BPVT-22ZEST0 320GB     | 1         | 0.47%   |
+| WD3200BEVT-80A0RT0 320GB     | 1         | 0.47%   |
+| WD3200BEVT-75ZCT0 320GB      | 1         | 0.47%   |
+| WD3200BEVT-22ZCT0 320GB      | 1         | 0.47%   |
+| WD3200BEVT-22A23T0 320GB     | 1         | 0.47%   |
+| WD2500BPVT-75JJ5T0 250GB     | 1         | 0.47%   |
+| WD2500BEVS-22UST0 250GB      | 1         | 0.47%   |
+| WD2500BEKT-60PVMT0 250GB     | 1         | 0.47%   |
+| WD1600BEVT-80A23T0 160GB     | 1         | 0.47%   |
+| WD1600BEVT-75ZCT2 160GB      | 1         | 0.47%   |
+| WD1600BEVS-07RST0 160GB      | 1         | 0.47%   |
+| WD10SPZX-24Z10T0 1TB         | 1         | 0.47%   |
+| WD10SPZX-24Z10 1TB           | 1         | 0.47%   |
+| WD10SPZX-21Z10T0 1TB         | 1         | 0.47%   |
+| WD10JUCT-63CYNY0 1TB         | 1         | 0.47%   |
+| WD10JPVX-00JC3T0 1TB         | 1         | 0.47%   |
+| WD10JPVT-22A1YT0 1TB         | 1         | 0.47%   |
 
 Drive Kind
 ----------
@@ -814,10 +817,10 @@ HDD or SSD
 
 | Kind    | Computers | Drives | Percent |
 |---------|-----------|--------|---------|
-| HDD     | 133       | 142    | 64.88%  |
-| SSD     | 59        | 61     | 28.78%  |
-| MMC     | 9         | 10     | 4.39%   |
-| NVMe    | 3         | 3      | 1.46%   |
+| HDD     | 133       | 138    | 65.2%   |
+| SSD     | 58        | 59     | 28.43%  |
+| MMC     | 9         | 10     | 4.41%   |
+| NVMe    | 3         | 3      | 1.47%   |
 | Unknown | 1         | 1      | 0.49%   |
 
 Drive Connector
@@ -831,10 +834,10 @@ SATA, SAS, NVMe, etc.
 
 | Type | Computers | Drives | Percent |
 |------|-----------|--------|---------|
-| SATA | 170       | 201    | 91.89%  |
-| MMC  | 9         | 10     | 4.86%   |
-| SAS  | 3         | 3      | 1.62%   |
-| NVMe | 3         | 3      | 1.62%   |
+| SATA | 169       | 195    | 91.85%  |
+| MMC  | 9         | 10     | 4.89%   |
+| SAS  | 3         | 3      | 1.63%   |
+| NVMe | 3         | 3      | 1.63%   |
 
 Drive Size
 ----------
@@ -847,8 +850,8 @@ Size of hard drive
 
 | Size in TB | Computers | Drives | Percent |
 |------------|-----------|--------|---------|
-| 0.01-0.5   | 159       | 186    | 84.57%  |
-| 0.51-1.0   | 28        | 30     | 14.89%  |
+| 0.01-0.5   | 158       | 182    | 84.49%  |
+| 0.51-1.0   | 28        | 28     | 14.97%  |
 | 3.01-4.0   | 1         | 1      | 0.53%   |
 
 Space Total
@@ -906,13 +909,14 @@ Drive models with a malfunction
 | ST320LT020-9YG142 320GB     | 2         | 2      | 3.85%   |
 | MK1237GSX 120GB             | 2         | 2      | 3.85%   |
 | HTS545050A7E380 500GB       | 2         | 2      | 3.85%   |
+| HTS543225L9A300 250GB       | 2         | 2      | 3.85%   |
 | WD7500BPVT-26HXZT3 752GB    | 1         | 1      | 1.92%   |
 | WD5000LPCX-21VHAT0 500GB    | 1         | 1      | 1.92%   |
 | WD3200BPVT-22JJ5T0 320GB    | 1         | 1      | 1.92%   |
 | WD3200BEVT-80A0RT0 320GB    | 1         | 1      | 1.92%   |
 | WD3200BEVT-75ZCT0 320GB     | 1         | 1      | 1.92%   |
 | WD3200BEVT-22A23T0 320GB    | 1         | 1      | 1.92%   |
-| WD1600BEVT-8 160GB          | 1         | 1      | 1.92%   |
+| WD1600BEVT-80A23T0 160GB    | 1         | 1      | 1.92%   |
 | ST9320328CS 320GB           | 1         | 1      | 1.92%   |
 | ST9250315AS 250GB           | 1         | 1      | 1.92%   |
 | ST9160310AS 160GB           | 1         | 1      | 1.92%   |
@@ -921,8 +925,10 @@ Drive models with a malfunction
 | ST320LM001 HN-M320MBB 320GB | 1         | 1      | 1.92%   |
 | ST1000LM035-1RK172 1TB      | 1         | 1      | 1.92%   |
 | ST1000LM014-1EJ164 1TB      | 1         | 1      | 1.92%   |
-| ST1000LM014-1EJ1 1TB        | 1         | 1      | 1.92%   |
 | SSDSC2KW512G8 512GB         | 1         | 1      | 1.92%   |
+| SSD170 56GB                 | 1         | 1      | 1.92%   |
+| SD9SN8W-256G-1006 256GB SSD | 1         | 1      | 1.92%   |
+| SD9SN8W-128G-1006 128GB SSD | 1         | 1      | 1.92%   |
 | MQ01ABF050 500GB            | 1         | 1      | 1.92%   |
 | MK8009GAH 80GB              | 1         | 1      | 1.92%   |
 | MK3265GSX 320GB             | 1         | 1      | 1.92%   |
@@ -931,13 +937,9 @@ Drive models with a malfunction
 | MK1652GSX 160GB             | 1         | 1      | 1.92%   |
 | MK1059GSMP 1TB              | 1         | 1      | 1.92%   |
 | LMN-256M3M mSATA 256GB SSD  | 1         | 1      | 1.92%   |
-| LMN-256 256GB SSD           | 1         | 1      | 1.92%   |
 | HTS725050A7E630 500GB       | 1         | 1      | 1.92%   |
 | HTS723232L9A360 320GB       | 1         | 1      | 1.92%   |
-| HTS54505 500GB              | 1         | 1      | 1.92%   |
 | HTS545016B9A300 160GB       | 1         | 1      | 1.92%   |
-| HTS543225L9A300 250GB       | 1         | 1      | 1.92%   |
-| HTS54322 250GB              | 1         | 1      | 1.92%   |
 | HTS542580K9SA00 80GB        | 1         | 1      | 1.92%   |
 | HTS541080G9AT00 80GB        | 1         | 1      | 1.92%   |
 | HTS421280H9AT00 80GB        | 1         | 1      | 1.92%   |
@@ -955,15 +957,17 @@ Vendors of faulty drives
 
 | Vendor              | Computers | Drives | Percent |
 |---------------------|-----------|--------|---------|
-| Seagate             | 16        | 17     | 32.65%  |
-| Toshiba             | 9         | 9      | 18.37%  |
-| Hitachi             | 8         | 9      | 16.33%  |
-| WDC                 | 7         | 7      | 14.29%  |
-| HGST                | 5         | 5      | 10.2%   |
-| Samsung Electronics | 1         | 1      | 2.04%   |
-| LITEONIT            | 1         | 2      | 2.04%   |
-| Intel               | 1         | 1      | 2.04%   |
-| Corsair             | 1         | 1      | 2.04%   |
+| Seagate             | 16        | 16     | 30.77%  |
+| Toshiba             | 9         | 9      | 17.31%  |
+| Hitachi             | 8         | 8      | 15.38%  |
+| WDC                 | 7         | 7      | 13.46%  |
+| HGST                | 5         | 5      | 9.62%   |
+| SanDisk             | 2         | 2      | 3.85%   |
+| SPCC                | 1         | 1      | 1.92%   |
+| Samsung Electronics | 1         | 1      | 1.92%   |
+| LITEONIT            | 1         | 1      | 1.92%   |
+| Intel               | 1         | 1      | 1.92%   |
+| Corsair             | 1         | 1      | 1.92%   |
 
 Malfunc. Drive Kind
 -------------------
@@ -976,8 +980,8 @@ Kinds of faulty drives
 
 | Kind | Computers | Drives | Percent |
 |------|-----------|--------|---------|
-| HDD  | 45        | 48     | 93.75%  |
-| SSD  | 3         | 4      | 6.25%   |
+| HDD  | 45        | 46     | 88.24%  |
+| SSD  | 6         | 6      | 11.76%  |
 
 Failed Drives
 -------------
@@ -1018,10 +1022,106 @@ Number of failed and malfunc. drives
 
 | Status   | Computers | Drives | Percent |
 |----------|-----------|--------|---------|
-| Works    | 132       | 148    | 67.35%  |
-| Malfunc  | 48        | 52     | 24.49%  |
-| Detected | 14        | 15     | 7.14%   |
-| Failed   | 2         | 2      | 1.02%   |
+| Works    | 128       | 142    | 65.64%  |
+| Malfunc  | 51        | 52     | 26.15%  |
+| Detected | 14        | 15     | 7.18%   |
+| Failed   | 2         | 2      | 1.03%   |
+
+Storage Vendor
+--------------
+
+Storage controller vendors
+
+![Storage Vendor](./images/pie_chart/storage_vendor.svg)
+
+![Storage Vendor](./images/line_chart/storage_vendor.svg)
+
+| Vendor                           | Computers | Percent |
+|----------------------------------|-----------|---------|
+| Intel                            | 134       | 76.57%  |
+| AMD                              | 31        | 17.71%  |
+| Nvidia                           | 4         | 2.29%   |
+| Silicon Integrated Systems [SiS] | 2         | 1.14%   |
+| VIA Technologies                 | 1         | 0.57%   |
+| Union Memory (Shenzhen)          | 1         | 0.57%   |
+| Micron Technology                | 1         | 0.57%   |
+| Kingston Technology Company      | 1         | 0.57%   |
+
+Storage Model
+-------------
+
+Storage controller models
+
+![Storage Model](./images/pie_chart/storage_model.svg)
+
+![Storage Model](./images/line_chart/storage_model.svg)
+
+| Model                                                                            | Computers | Percent |
+|----------------------------------------------------------------------------------|-----------|---------|
+| FCH SATA Controller [AHCI mode]                                                  | 20        | 10.26%  |
+| 6 Series/C200 Series Chipset Family 6 port Mobile SATA AHCI Controller           | 19        | 9.74%   |
+| 7 Series Chipset Family 6-port SATA Controller [AHCI mode]                       | 18        | 9.23%   |
+| 82801IBM/IEM (ICH9M/ICH9M-E) 4 port SATA Controller [AHCI mode]                  | 13        | 6.67%   |
+| NM10/ICH7 Family SATA Controller [AHCI mode]                                     | 10        | 5.13%   |
+| 82801 Mobile SATA Controller [RAID mode]                                         | 10        | 5.13%   |
+| 5 Series/3400 Series Chipset 4 port SATA AHCI Controller                         | 10        | 5.13%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode]                                    | 8         | 4.1%    |
+| Wildcat Point-LP SATA Controller [AHCI Mode]                                     | 7         | 3.59%   |
+| Sunrise Point-LP SATA Controller [AHCI mode]                                     | 7         | 3.59%   |
+| 82801HM/HEM (ICH8M/ICH8M-E) IDE Controller                                       | 7         | 3.59%   |
+| Atom Processor E3800 Series SATA AHCI Controller                                 | 5         | 2.56%   |
+| 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode]                          | 5         | 2.56%   |
+| 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode]         | 4         | 2.05%   |
+| Non-Volatile memory controller                                                   | 3         | 1.54%   |
+| 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [IDE mode]                           | 3         | 1.54%   |
+| 82801G (ICH7 Family) IDE Controller                                              | 3         | 1.54%   |
+| 8 Series SATA Controller 1 [AHCI mode]                                           | 3         | 1.54%   |
+| SATA Controller / IDE mode                                                       | 2         | 1.03%   |
+| SATA controller                                                                  | 2         | 1.03%   |
+| MCP51 Serial ATA Controller                                                      | 2         | 1.03%   |
+| MCP51 IDE                                                                        | 2         | 1.03%   |
+| FCH IDE Controller                                                               | 2         | 1.03%   |
+| Celeron N3350/Pentium N4200/Atom E3900 Series SATA AHCI Controller               | 2         | 1.03%   |
+| Cannon Lake Mobile PCH SATA AHCI Controller                                      | 2         | 1.03%   |
+| 82801GBM/GHM (ICH7-M Family) SATA Controller [IDE mode]                          | 2         | 1.03%   |
+| 82801FB/FBM/FR/FW/FRW (ICH6 Family) IDE Controller                               | 2         | 1.03%   |
+| 5513 IDE Controller                                                              | 2         | 1.03%   |
+| VT82C586A/B/VT82C686/A/B/VT823x/A/C PIPC Bus Master IDE                          | 1         | 0.51%   |
+| VT8237A SATA 2-Port Controller                                                   | 1         | 0.51%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [IDE mode]                                     | 1         | 0.51%   |
+| SB600 Non-Raid-5 SATA                                                            | 1         | 0.51%   |
+| SB600 IDE                                                                        | 1         | 0.51%   |
+| MCP79 AHCI Controller                                                            | 1         | 0.51%   |
+| MCP78S [GeForce 8200] SATA Controller (non-AHCI mode)                            | 1         | 0.51%   |
+| MCP78S [GeForce 8200] IDE                                                        | 1         | 0.51%   |
+| IXP SB4x0 IDE Controller                                                         | 1         | 0.51%   |
+| HM170/QM170 Chipset SATA Controller [AHCI Mode]                                  | 1         | 0.51%   |
+| Cannon Point-LP SATA Controller [AHCI Mode]                                      | 1         | 0.51%   |
+| Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SATA Controller       | 1         | 0.51%   |
+| 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]                   | 1         | 0.51%   |
+| 82801GBM/GHM (ICH7-M Family) SATA Controller [AHCI mode]                         | 1         | 0.51%   |
+| 8 Series/C220 Series Chipset Family 2-port SATA Controller 2 [IDE mode]          | 1         | 0.51%   |
+| 8 Series Chipset Family 4-port SATA Controller 1 [IDE mode] - Mobile             | 1         | 0.51%   |
+| 6 Series/C200 Series Chipset Family Mobile SATA Controller (IDE mode, ports 4-5) | 1         | 0.51%   |
+| 6 Series/C200 Series Chipset Family Mobile SATA Controller (IDE mode, ports 0-3) | 1         | 0.51%   |
+| 5 Series/3400 Series Chipset 4 port SATA IDE Controller                          | 1         | 0.51%   |
+| 5 Series/3400 Series Chipset 2 port SATA IDE Controller                          | 1         | 0.51%   |
+
+Storage Kind
+------------
+
+Kind of storage controller (IDE, SATA, NVMe, SAS, ...)
+
+![Storage Kind](./images/pie_chart/storage_kind.svg)
+
+![Storage Kind](./images/line_chart/storage_kind.svg)
+
+| Kind | Computers | Percent |
+|------|-----------|---------|
+| SATA | 142       | 77.17%  |
+| IDE  | 29        | 15.76%  |
+| RAID | 10        | 5.43%   |
+| NVMe | 3         | 1.63%   |
 
 CPU Vendor
 ----------
@@ -1584,9 +1684,9 @@ Diagonal size in inches
 |---------|-----------|---------|
 | 15      | 112       | 63.28%  |
 | 17      | 14        | 7.91%   |
-| 10      | 12        | 6.78%   |
-| 14      | 10        | 5.65%   |
-| 13      | 10        | 5.65%   |
+| 10      | 13        | 7.34%   |
+| 13      | 11        | 6.21%   |
+| 14      | 8         | 4.52%   |
 | 12      | 4         | 2.26%   |
 | 11      | 4         | 2.26%   |
 | 21      | 2         | 1.13%   |
@@ -1610,8 +1710,8 @@ Physical width
 
 | Width in mm | Computers | Percent |
 |-------------|-----------|---------|
-| 301-350     | 125       | 71.02%  |
-| 201-300     | 26        | 14.77%  |
+| 301-350     | 124       | 70.45%  |
+| 201-300     | 27        | 15.34%  |
 | 351-400     | 15        | 8.52%   |
 | 401-500     | 5         | 2.84%   |
 | 601-700     | 2         | 1.14%   |
@@ -1648,16 +1748,16 @@ Area in inch²
 
 | Area in inch² | Computers | Percent |
 |----------------|-----------|---------|
-| 101-110        | 109       | 61.24%  |
-| 81-90          | 13        | 7.3%    |
-| 41-50          | 12        | 6.74%   |
+| 101-110        | 107       | 60.11%  |
+| 41-50          | 13        | 7.3%    |
+| 81-90          | 12        | 6.74%   |
 | 121-130        | 9         | 5.06%   |
 | 71-80          | 6         | 3.37%   |
+| 91-100         | 6         | 3.37%   |
 | 61-70          | 4         | 2.25%   |
 | 51-60          | 4         | 2.25%   |
 | 151-200        | 4         | 2.25%   |
 | 141-150        | 4         | 2.25%   |
-| 91-100         | 4         | 2.25%   |
 | 131-140        | 3         | 1.69%   |
 | More than 1000 | 1         | 0.56%   |
 | 351-500        | 1         | 0.56%   |
@@ -1678,9 +1778,9 @@ Pixels per inch
 | Density | Computers | Percent |
 |---------|-----------|---------|
 | 101-120 | 118       | 67.05%  |
-| 121-160 | 33        | 18.75%  |
+| 121-160 | 32        | 18.18%  |
 | 51-100  | 19        | 10.8%   |
-| 161-240 | 3         | 1.7%    |
+| 161-240 | 4         | 2.27%   |
 | 1-50    | 2         | 1.14%   |
 | Unknown | 1         | 0.57%   |
 
@@ -1762,8 +1862,8 @@ Ethernet, WiFi or modem
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
 | Ethernet | 14        | 60.87%  |
-| WiFi     | 8         | 34.78%  |
-| Modem    | 1         | 4.35%   |
+| WiFi     | 7         | 30.43%  |
+| Modem    | 2         | 8.7%    |
 
 Used Controller
 ---------------

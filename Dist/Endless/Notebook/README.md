@@ -53,6 +53,9 @@ Contents
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
 - [ Drive Status             ](#drive-status)
+- [ Storage Vendor           ](#storage-vendor)
+- [ Storage Model            ](#storage-model)
+- [ Storage Kind             ](#storage-kind)
 - [ CPU Vendor               ](#cpu-vendor)
 - [ CPU Model                ](#cpu-model)
 - [ CPU Model Family         ](#cpu-model-family)
@@ -431,57 +434,57 @@ Motherboard model
 
 ![Model](./images/line_chart/node_model.svg)
 
-| Name                                  | Computers | Percent |
-|---------------------------------------|-----------|---------|
-| VivoBook 15_ASUS Laptop X540UBR       | 3         | 5.08%   |
-| VivoBook 15_ASUS Laptop X540UAR       | 3         | 5.08%   |
-| Nitro AN515-52                        | 3         | 5.08%   |
-| VivoBook 15_ASUS Laptop X540MA_X543MA | 2         | 3.39%   |
-| VivoBook 15_ASUS Laptop X540MA_X540MA | 2         | 3.39%   |
-| GL553VD                               | 2         | 3.39%   |
-| Aspire A315-31                        | 2         | 3.39%   |
-| X705UQR                               | 1         | 1.69%   |
-| X705UAR                               | 1         | 1.69%   |
-| X541NA                                | 1         | 1.69%   |
-| X540NV                                | 1         | 1.69%   |
-| X540NA                                | 1         | 1.69%   |
-| X510UN                                | 1         | 1.69%   |
-| X451CAP                               | 1         | 1.69%   |
-| VivoBook_ASUSLaptop X570ZD_X570ZD     | 1         | 1.69%   |
-| VivoBook_ASUSLaptop X509FB_X509FB     | 1         | 1.69%   |
-| VivoBook_ASUSLaptop X509FA_X509FA     | 1         | 1.69%   |
-| VivoBook_ASUSLaptop X430FA_S430FA     | 1         | 1.69%   |
-| VivoBook 15_ASUS Laptop X540MA_R540MA | 1         | 1.69%   |
-| VivoBook 15_ASUS Laptop X507UAR       | 1         | 1.69%   |
-| VivoBook 15_ASUS Laptop X507MA_X507MA | 1         | 1.69%   |
-| TravelMate P259-MG                    | 1         | 1.69%   |
-| Satellite P855                        | 1         | 1.69%   |
-| Satellite P75-A                       | 1         | 1.69%   |
-| Satellite C870-1GU                    | 1         | 1.69%   |
-| S14CT01                               | 1         | 1.69%   |
-| ProBook 455 G1                        | 1         | 1.69%   |
-| Predator PH317-53                     | 1         | 1.69%   |
-| Parrot                                | 1         | 1.69%   |
-| Notebook                              | 1         | 1.69%   |
-| Nitro AN515-51                        | 1         | 1.69%   |
-| Nitro AN515-31                        | 1         | 1.69%   |
-| Legion Y540-15IRH 81SX                | 1         | 1.69%   |
-| Latitude E6440                        | 1         | 1.69%   |
-| Latitude E6420                        | 1         | 1.69%   |
-| IS 1414                               | 1         | 1.69%   |
-| IdeaPad 520-15IKB 80YL                | 1         | 1.69%   |
-| IdeaPad 330-15ARR 81D2                | 1         | 1.69%   |
-| Extensa 2540                          | 1         | 1.69%   |
-| ENVY m4                               | 1         | 1.69%   |
-| Aspire A715-72G                       | 1         | 1.69%   |
-| Aspire A517-51                        | 1         | 1.69%   |
-| Aspire A515-52                        | 1         | 1.69%   |
-| Aspire A515-51                        | 1         | 1.69%   |
-| Aspire 5742                           | 1         | 1.69%   |
-| Aspire 4752                           | 1         | 1.69%   |
-| Aerial                                | 1         | 1.69%   |
-| ACLU12                                | 1         | 1.69%   |
-| Unknown                               | 1         | 1.69%   |
+| Name                                       | Computers | Percent |
+|--------------------------------------------|-----------|---------|
+| ASUS VivoBook 15_ASUS Laptop X540UBR       | 3         | 5.08%   |
+| ASUS VivoBook 15_ASUS Laptop X540UAR       | 3         | 5.08%   |
+| Acer Nitro AN515-52                        | 3         | 5.08%   |
+| ASUS VivoBook 15_ASUS Laptop X540MA_X543MA | 2         | 3.39%   |
+| ASUS VivoBook 15_ASUS Laptop X540MA_X540MA | 2         | 3.39%   |
+| ASUS GL553VD                               | 2         | 3.39%   |
+| Acer Aspire A315-31                        | 2         | 3.39%   |
+| Toshiba Satellite P855                     | 1         | 1.69%   |
+| Toshiba Satellite P75-A                    | 1         | 1.69%   |
+| Toshiba Satellite C870-1GU                 | 1         | 1.69%   |
+| Semp Toshiba IS 1414                       | 1         | 1.69%   |
+| Positivo S14CT01                           | 1         | 1.69%   |
+| nJoy Romania Aerial                        | 1         | 1.69%   |
+| Lenovo Legion Y540-15IRH 81SX              | 1         | 1.69%   |
+| Lenovo IdeaPad 520-15IKB 80YL              | 1         | 1.69%   |
+| Lenovo IdeaPad 330-15ARR 81D2              | 1         | 1.69%   |
+| Lenovo ACLU12                              | 1         | 1.69%   |
+| HP ProBook 455 G1                          | 1         | 1.69%   |
+| HP Notebook                                | 1         | 1.69%   |
+| HP ENVY m4                                 | 1         | 1.69%   |
+| Google Parrot                              | 1         | 1.69%   |
+| Dell Latitude E6440                        | 1         | 1.69%   |
+| Dell Latitude E6420                        | 1         | 1.69%   |
+| ASUS X705UQR                               | 1         | 1.69%   |
+| ASUS X705UAR                               | 1         | 1.69%   |
+| ASUS X541NA                                | 1         | 1.69%   |
+| ASUS X540NV                                | 1         | 1.69%   |
+| ASUS X540NA                                | 1         | 1.69%   |
+| ASUS X510UN                                | 1         | 1.69%   |
+| ASUS X451CAP                               | 1         | 1.69%   |
+| ASUS VivoBook_ASUSLaptop X570ZD_X570ZD     | 1         | 1.69%   |
+| ASUS VivoBook_ASUSLaptop X509FB_X509FB     | 1         | 1.69%   |
+| ASUS VivoBook_ASUSLaptop X509FA_X509FA     | 1         | 1.69%   |
+| ASUS VivoBook_ASUSLaptop X430FA_S430FA     | 1         | 1.69%   |
+| ASUS VivoBook 15_ASUS Laptop X540MA_R540MA | 1         | 1.69%   |
+| ASUS VivoBook 15_ASUS Laptop X507UAR       | 1         | 1.69%   |
+| ASUS VivoBook 15_ASUS Laptop X507MA_X507MA | 1         | 1.69%   |
+| Acer TravelMate P259-MG                    | 1         | 1.69%   |
+| Acer Predator PH317-53                     | 1         | 1.69%   |
+| Acer Nitro AN515-51                        | 1         | 1.69%   |
+| Acer Nitro AN515-31                        | 1         | 1.69%   |
+| Acer Extensa 2540                          | 1         | 1.69%   |
+| Acer Aspire A715-72G                       | 1         | 1.69%   |
+| Acer Aspire A517-51                        | 1         | 1.69%   |
+| Acer Aspire A515-52                        | 1         | 1.69%   |
+| Acer Aspire A515-51                        | 1         | 1.69%   |
+| Acer Aspire 5742                           | 1         | 1.69%   |
+| Acer Aspire 4752                           | 1         | 1.69%   |
+| Unknown                                    | 1         | 1.69%   |
 
 Model Family
 ------------
@@ -566,9 +569,8 @@ Enabled or disabled
 
 | State    | Computers | Percent |
 |----------|-----------|---------|
-| Disabled | 34        | 57.63%  |
+| Disabled | 45        | 76.27%  |
 | Enabled  | 14        | 23.73%  |
-| Unknown  | 11        | 18.64%  |
 
 Coreboot
 --------
@@ -661,10 +663,10 @@ Hard drive models
 | RBUSC180DS37256GJ 256GB SSD  | 5         | 7.04%   |
 | MQ04ABF100 1TB               | 5         | 7.04%   |
 | IM2S3338-128GD2 128GB SSD    | 4         | 5.63%   |
-| MMC Card  31GB               | 3         | 4.23%   |
 | WD5000LPCX-80VHAT1 500GB     | 2         | 2.82%   |
 | SD8SN8U128G1002 128GB SSD    | 2         | 2.82%   |
 | MQ01ABF050 500GB             | 2         | 2.82%   |
+| MMC Card  32GB               | 2         | 2.82%   |
 | WDS120G2G0B-00EPW0 120GB SSD | 1         | 1.41%   |
 | WD5000BEVT-22A0RT0 500GB     | 1         | 1.41%   |
 | WD3200BEKX-75B7WT0 320GB     | 1         | 1.41%   |
@@ -686,12 +688,13 @@ Hard drive models
 | MZYTN512HDJH-000L2 512GB SSD | 1         | 1.41%   |
 | MZNTY128HDHP-00007 128GB SSD | 1         | 1.41%   |
 | MQ01ABD100 1TB               | 1         | 1.41%   |
-| MQ01ABD075 750GB             | 1         | 1.41%   |
+| MQ01ABD075 752GB             | 1         | 1.41%   |
+| MMC Card  2GB                | 1         | 1.41%   |
 | HTS721010A9E630 1TB          | 1         | 1.41%   |
 | HTS547550A9E384 500GB        | 1         | 1.41%   |
 | HTS545050B7E660 500GB        | 1         | 1.41%   |
 | HTS545050A7E680 500GB        | 1         | 1.41%   |
-| HTS541075A9E680 750GB        | 1         | 1.41%   |
+| HTS541075A9E680 752GB        | 1         | 1.41%   |
 | HTS541010A9E680 1TB          | 1         | 1.41%   |
 | HM251HX 250GB                | 1         | 1.41%   |
 | HFS128G39TND-N210A 128GB SSD | 1         | 1.41%   |
@@ -827,6 +830,66 @@ Number of failed and malfunc. drives
 | Status   | Computers | Drives | Percent |
 |----------|-----------|--------|---------|
 | Detected | 57        | 72     | 100%    |
+
+Storage Vendor
+--------------
+
+Storage controller vendors
+
+![Storage Vendor](./images/pie_chart/storage_vendor.svg)
+
+![Storage Vendor](./images/line_chart/storage_vendor.svg)
+
+| Vendor              | Computers | Percent |
+|---------------------|-----------|---------|
+| Intel               | 54        | 90%     |
+| AMD                 | 4         | 6.67%   |
+| Sandisk             | 1         | 1.67%   |
+| Samsung Electronics | 1         | 1.67%   |
+
+Storage Model
+-------------
+
+Storage controller models
+
+![Storage Model](./images/pie_chart/storage_model.svg)
+
+![Storage Model](./images/line_chart/storage_model.svg)
+
+| Model                                                                    | Computers | Percent |
+|--------------------------------------------------------------------------|-----------|---------|
+| Sunrise Point-LP SATA Controller [AHCI mode]                             | 15        | 25%     |
+| 82801 Mobile SATA Controller [RAID mode]                                 | 11        | 18.33%  |
+| SATA controller                                                          | 6         | 10%     |
+| Celeron N3350/Pentium N4200/Atom E3900 Series SATA AHCI Controller       | 6         | 10%     |
+| FCH SATA Controller [AHCI mode]                                          | 4         | 6.67%   |
+| 7 Series Chipset Family 6-port SATA Controller [AHCI mode]               | 4         | 6.67%   |
+| HM170/QM170 Chipset SATA Controller [AHCI Mode]                          | 3         | 5%      |
+| Cannon Lake Mobile PCH SATA AHCI Controller                              | 3         | 5%      |
+| WD Black 2018/PC SN520 NVMe SSD                                          | 1         | 1.67%   |
+| NVMe SSD Controller SM981/PM981/PM983                                    | 1         | 1.67%   |
+| NM10/ICH7 Family SATA Controller [IDE mode]                              | 1         | 1.67%   |
+| 82801IBM/IEM (ICH9M/ICH9M-E) 2 port SATA Controller [IDE mode]           | 1         | 1.67%   |
+| 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] | 1         | 1.67%   |
+| 8 Series SATA Controller 1 [AHCI mode]                                   | 1         | 1.67%   |
+| 6 Series/C200 Series Chipset Family 6 port Mobile SATA AHCI Controller   | 1         | 1.67%   |
+| 5 Series/3400 Series Chipset 4 port SATA AHCI Controller                 | 1         | 1.67%   |
+
+Storage Kind
+------------
+
+Kind of storage controller (IDE, SATA, NVMe, SAS, ...)
+
+![Storage Kind](./images/pie_chart/storage_kind.svg)
+
+![Storage Kind](./images/line_chart/storage_kind.svg)
+
+| Kind | Computers | Percent |
+|------|-----------|---------|
+| SATA | 45        | 75%     |
+| RAID | 11        | 18.33%  |
+| NVMe | 2         | 3.33%   |
+| IDE  | 2         | 3.33%   |
 
 CPU Vendor
 ----------

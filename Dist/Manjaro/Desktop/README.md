@@ -53,6 +53,9 @@ Contents
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
 - [ Drive Status             ](#drive-status)
+- [ Storage Vendor           ](#storage-vendor)
+- [ Storage Model            ](#storage-model)
+- [ Storage Kind             ](#storage-kind)
 - [ CPU Vendor               ](#cpu-vendor)
 - [ CPU Model                ](#cpu-model)
 - [ CPU Model Family         ](#cpu-model-family)
@@ -206,11 +209,11 @@ Desktop Environment
 | Name     | Computers | Percent |
 |----------|-----------|---------|
 | XFCE     | 11        | 23.91%  |
-| KDE5     | 10        | 21.74%  |
+| KDE5     | 11        | 23.91%  |
 | KDE      | 9         | 19.57%  |
 | GNOME    | 8         | 17.39%  |
-| Unknown  | 3         | 6.52%   |
 | Cinnamon | 2         | 4.35%   |
+| Unknown  | 2         | 4.35%   |
 | LXQt     | 1         | 2.17%   |
 | Deepin   | 1         | 2.17%   |
 | Budgie   | 1         | 2.17%   |
@@ -226,8 +229,8 @@ X11 or Wayland
 
 | Name    | Computers | Percent |
 |---------|-----------|---------|
-| Unknown | 32        | 69.57%  |
-| X11     | 14        | 30.43%  |
+| X11     | 44        | 95.65%  |
+| Wayland | 2         | 4.35%   |
 
 OS Lang
 -------
@@ -439,51 +442,51 @@ Motherboard model
 
 ![Model](./images/line_chart/node_model.svg)
 
-| Name                     | Computers | Percent |
-|--------------------------|-----------|---------|
-| X570 AORUS PRO           | 2         | 4.35%   |
-| PRIME X470-PRO           | 2         | 4.35%   |
-| MS-7B89                  | 2         | 4.35%   |
-| Z97X-UD3H                | 1         | 2.17%   |
-| Z390 Taichi              | 1         | 2.17%   |
-| Z390 GAMING SLI          | 1         | 2.17%   |
-| Z390 AORUS MASTER        | 1         | 2.17%   |
-| Z270-Gaming K3           | 1         | 2.17%   |
-| Z170-P                   | 1         | 2.17%   |
-| Z170 PRO GAMING          | 1         | 2.17%   |
-| XPS 8900                 | 1         | 2.17%   |
-| X570 Phantom Gaming 4    | 1         | 2.17%   |
-| X399 Professional Gaming | 1         | 2.17%   |
-| ProDesk 600 G2 SFF       | 1         | 2.17%   |
-| PRIME X570-P             | 1         | 2.17%   |
-| PRIME X370-PRO           | 1         | 2.17%   |
-| PRIME A320M-K            | 1         | 2.17%   |
-| P8H77-V LE               | 1         | 2.17%   |
-| P7H55-M PRO              | 1         | 2.17%   |
-| OptiPlex GX620           | 1         | 2.17%   |
-| OptiPlex 7010            | 1         | 2.17%   |
-| MS-7B45                  | 1         | 2.17%   |
-| MS-7A39                  | 1         | 2.17%   |
-| MS-7A34                  | 1         | 2.17%   |
-| MS-7885                  | 1         | 2.17%   |
-| MS-7821                  | 1         | 2.17%   |
-| MS-7786                  | 1         | 2.17%   |
-| M5A97                    | 1         | 2.17%   |
-| M5A78L-M/USB3            | 1         | 2.17%   |
-| M5A78L LE                | 1         | 2.17%   |
-| M11BB                    | 1         | 2.17%   |
-| H81 Pro BTC R2.0         | 1         | 2.17%   |
-| GA-970A-D3               | 1         | 2.17%   |
-| FM2A58M-VG3+             | 1         | 2.17%   |
-| EP45-DS4                 | 1         | 2.17%   |
-| D3674-B1 S26361-D3674-B1 | 1         | 2.17%   |
-| B85M Pro4                | 1         | 2.17%   |
-| B450M Pro4               | 1         | 2.17%   |
-| B360M-DS3H               | 1         | 2.17%   |
-| AX370-Gaming 5           | 1         | 2.17%   |
-| Aspire M1610             | 1         | 2.17%   |
-| A320M-S2H V2             | 1         | 2.17%   |
-| A10N-8800E               | 1         | 2.17%   |
+| Name                             | Computers | Percent |
+|----------------------------------|-----------|---------|
+| MSI MS-7B89                      | 2         | 4.35%   |
+| Gigabyte X570 AORUS PRO          | 2         | 4.35%   |
+| ASUS PRIME X470-PRO              | 2         | 4.35%   |
+| MSI MS-7B45                      | 1         | 2.17%   |
+| MSI MS-7A39                      | 1         | 2.17%   |
+| MSI MS-7A34                      | 1         | 2.17%   |
+| MSI MS-7885                      | 1         | 2.17%   |
+| MSI MS-7821                      | 1         | 2.17%   |
+| MSI MS-7786                      | 1         | 2.17%   |
+| HP ProDesk 600 G2 SFF            | 1         | 2.17%   |
+| Gigabyte Z97X-UD3H               | 1         | 2.17%   |
+| Gigabyte Z390 GAMING SLI         | 1         | 2.17%   |
+| Gigabyte Z390 AORUS MASTER       | 1         | 2.17%   |
+| Gigabyte Z270-Gaming K3          | 1         | 2.17%   |
+| Gigabyte GA-970A-D3              | 1         | 2.17%   |
+| Gigabyte EP45-DS4                | 1         | 2.17%   |
+| Gigabyte B360M-DS3H              | 1         | 2.17%   |
+| Gigabyte AX370-Gaming 5          | 1         | 2.17%   |
+| Gigabyte A320M-S2H V2            | 1         | 2.17%   |
+| Fujitsu D3674-B1 S26361-D3674-B1 | 1         | 2.17%   |
+| Dell XPS 8900                    | 1         | 2.17%   |
+| Dell OptiPlex GX620              | 1         | 2.17%   |
+| Dell OptiPlex 7010               | 1         | 2.17%   |
+| Biostar A10N-8800E               | 1         | 2.17%   |
+| ASUS Z170-P                      | 1         | 2.17%   |
+| ASUS Z170 PRO GAMING             | 1         | 2.17%   |
+| ASUS PRIME X570-P                | 1         | 2.17%   |
+| ASUS PRIME X370-PRO              | 1         | 2.17%   |
+| ASUS PRIME A320M-K               | 1         | 2.17%   |
+| ASUS P8H77-V LE                  | 1         | 2.17%   |
+| ASUS P7H55-M PRO                 | 1         | 2.17%   |
+| ASUS M5A97                       | 1         | 2.17%   |
+| ASUS M5A78L-M/USB3               | 1         | 2.17%   |
+| ASUS M5A78L LE                   | 1         | 2.17%   |
+| ASUS M11BB                       | 1         | 2.17%   |
+| ASRock Z390 Taichi               | 1         | 2.17%   |
+| ASRock X570 Phantom Gaming 4     | 1         | 2.17%   |
+| ASRock X399 Professional Gaming  | 1         | 2.17%   |
+| ASRock H81 Pro BTC R2.0          | 1         | 2.17%   |
+| ASRock FM2A58M-VG3+              | 1         | 2.17%   |
+| ASRock B85M Pro4                 | 1         | 2.17%   |
+| ASRock B450M Pro4                | 1         | 2.17%   |
+| Acer Aspire M1610                | 1         | 2.17%   |
 
 Model Family
 ------------
@@ -583,8 +586,7 @@ Enabled or disabled
 
 | State    | Computers | Percent |
 |----------|-----------|---------|
-| Disabled | 40        | 86.96%  |
-| Unknown  | 6         | 13.04%  |
+| Disabled | 46        | 100%    |
 
 Coreboot
 --------
@@ -649,18 +651,18 @@ Hard drive vendors
 
 | Vendor              | Computers | Drives | Percent |
 |---------------------|-----------|--------|---------|
-| WDC                 | 22        | 28     | 20.37%  |
-| Samsung Electronics | 22        | 33     | 20.37%  |
-| Seagate             | 13        | 15     | 12.04%  |
+| WDC                 | 22        | 30     | 20.37%  |
+| Samsung Electronics | 22        | 31     | 20.37%  |
+| Seagate             | 13        | 14     | 12.04%  |
 | Toshiba             | 7         | 8      | 6.48%   |
 | Kingston            | 7         | 9      | 6.48%   |
 | Hitachi             | 5         | 6      | 4.63%   |
 | HGST                | 5         | 7      | 4.63%   |
-| SanDisk             | 4         | 4      | 3.7%    |
+| SanDisk             | 4         | 5      | 3.7%    |
 | Crucial             | 3         | 3      | 2.78%   |
 | OCZ                 | 2         | 2      | 1.85%   |
 | Intenso             | 2         | 2      | 1.85%   |
-| Intel               | 2         | 3      | 1.85%   |
+| Intel               | 2         | 2      | 1.85%   |
 | Corsair             | 2         | 2      | 1.85%   |
 | A-DATA Technology   | 2         | 2      | 1.85%   |
 | Unknown             | 1         | 1      | 0.93%   |
@@ -670,7 +672,7 @@ Hard drive vendors
 | PLEXTOR             | 1         | 1      | 0.93%   |
 | Hewlett-Packard     | 1         | 1      | 0.93%   |
 | Colorful            | 1         | 1      | 0.93%   |
-| Apple               | 1         | 2      | 0.93%   |
+| Apple               | 1         | 1      | 0.93%   |
 | Apacer              | 1         | 1      | 0.93%   |
 | ADplus              | 1         | 1      | 0.93%   |
 
@@ -685,66 +687,66 @@ Hard drive models
 
 | Model                       | Computers | Percent |
 |-----------------------------|-----------|---------|
-| SA400S37240G 240GB SSD      | 4         | 2.96%   |
-| SSD 850 250GB               | 3         | 2.22%   |
-| SSD Sata III 497GB          | 2         | 1.48%   |
-| SSD 850 EVO 500GB           | 2         | 1.48%   |
-| SSD 850 500GB               | 2         | 1.48%   |
-| SA400S37120G 120GB SSD      | 2         | 1.48%   |
-| HTS721010A9E630 1TB         | 2         | 1.48%   |
-| HDS72103 320GB              | 2         | 1.48%   |
-| HDN724040ALE640 4TB         | 2         | 1.48%   |
-| WDS500G2X0C-00L350 500GB    | 1         | 0.74%   |
-| WD6400AAKS-65A7B2 640GB     | 1         | 0.74%   |
-| WD6400AAKS-0 640GB          | 1         | 0.74%   |
-| WD5003AZEX-00K3CA0 500GB    | 1         | 0.74%   |
-| WD5000LPLX-2 500GB          | 1         | 0.74%   |
-| WD5000AAKX-60U6AA0 500GB    | 1         | 0.74%   |
-| WD5000AAKS-22TMA0 500GB     | 1         | 0.74%   |
-| WD40EZRZ-00W 4TB            | 1         | 0.74%   |
-| WD40EZRZ-00GXCB0 4TB        | 1         | 0.74%   |
-| WD40EFRX-68W 4TB            | 1         | 0.74%   |
-| WD4003FZEX-00Z4SA0 4TB      | 1         | 0.74%   |
-| WD30EZRX-00MMMB0 3TB        | 1         | 0.74%   |
-| WD30EJRX-89G                | 1         | 0.74%   |
-| WD3000FYYZ-0 3TB            | 1         | 0.74%   |
-| WD20EZRX-00D 2TB            | 1         | 0.74%   |
-| WD2003FZEX-00Z4SA0 2TB      | 1         | 0.74%   |
-| WD2003FZEX-00SRLA0 2TB      | 1         | 0.74%   |
-| WD2003FZEX-0 2TB            | 1         | 0.74%   |
-| WD15EARS-00MVWB0 1TB        | 1         | 0.74%   |
-| WD1502FAEX-0 1TB            | 1         | 0.74%   |
-| WD10EZEX-00WN4A0 1TB        | 1         | 0.74%   |
-| WD10EZEX-00BN5A0 1TB        | 1         | 0.74%   |
-| WD10EFRX-68PJCN0 1TB        | 1         | 0.74%   |
-| WD1003FZEX-00K3CA0 1TB      | 1         | 0.74%   |
-| WD1002FAEX-00Z3A0 1TB       | 1         | 0.74%   |
-| WD1001FALS-40K1B0 1TB       | 1         | 0.74%   |
-| WD1001FALS-4 1TB            | 1         | 0.74%   |
-| WD1001FALS-0 1TB            | 1         | 0.74%   |
-| VERTEX4 256GB SSD           | 1         | 0.74%   |
-| TS1TMTE220S 1.0TB           | 1         | 0.74%   |
-| SX900 256GB SSD             | 1         | 0.74%   |
-| SUV500240G 240GB SSD        | 1         | 0.74%   |
-| SuperVer 750GB              | 1         | 0.74%   |
-| ST9500420ASG 500GB          | 1         | 0.74%   |
-| ST8000VN0022-2EL 8TB        | 1         | 0.74%   |
-| ST8000DM002-1YW112 8TB      | 1         | 0.74%   |
-| ST8000AS 0002-1NA17Z 8TB    | 1         | 0.74%   |
-| ST750LM022 HN-M750MBB 750GB | 1         | 0.74%   |
-| ST500DM002-1BD142 500GB     | 1         | 0.74%   |
-| ST380815AS 80GB             | 1         | 0.74%   |
-| ST31500341AS 1TB            | 1         | 0.74%   |
-| ST2000DM008-2FR102 2TB      | 1         | 0.74%   |
-| ST2000DM008-2FR1 2TB        | 1         | 0.74%   |
-| ST2000DM001-1ER1 2TB        | 1         | 0.74%   |
-| ST1000DM010-2EP102 1TB      | 1         | 0.74%   |
-| ST1000DM003-1ER162 1TB      | 1         | 0.74%   |
-| ST1000DM003-1CH162 1TB      | 1         | 0.74%   |
-| SSDSA2CT040G3 40GB          | 1         | 0.74%   |
-| SSDSA2CT04 40GB             | 1         | 0.74%   |
-| SSDPEKNW010T8 1TB           | 1         | 0.74%   |
-| ssd v300a 240GB             | 1         | 0.74%   |
+| SA400S37240G 240GB SSD      | 4         | 3.17%   |
+| SSD 850 EVO 500GB           | 3         | 2.38%   |
+| SSD 850 EVO 250GB           | 3         | 2.38%   |
+| WD2003FZEX-00SRLA0 2TB      | 2         | 1.59%   |
+| SSD 840 EVO 250GB           | 2         | 1.59%   |
+| SA400S37120G 120GB SSD      | 2         | 1.59%   |
+| HTS721010A9E630 1TB         | 2         | 1.59%   |
+| HDS721032CLA362 320GB       | 2         | 1.59%   |
+| HDN724040ALE640 4TB         | 2         | 1.59%   |
+| WDS500G2X0C-00L350 500GB    | 1         | 0.79%   |
+| WD6400AAKS-65A7B2 640GB     | 1         | 0.79%   |
+| WD6400AAKS-00H2B1 640GB     | 1         | 0.79%   |
+| WD5003AZEX-00K3CA0 500GB    | 1         | 0.79%   |
+| WD5000LPLX-22ZNTT0 500GB    | 1         | 0.79%   |
+| WD5000AAKX-60U6AA0 500GB    | 1         | 0.79%   |
+| WD5000AAKS-22TMA0 500GB     | 1         | 0.79%   |
+| WD40EZRZ-00WN9B0 4TB        | 1         | 0.79%   |
+| WD40EZRZ-00GXCB0 4TB        | 1         | 0.79%   |
+| WD40EFRX-68WT0N0 4TB        | 1         | 0.79%   |
+| WD4003FZEX-00Z4SA0 4TB      | 1         | 0.79%   |
+| WD30EZRX-00MMMB0 3TB        | 1         | 0.79%   |
+| WD30EJRX-89G3VY0 3TB        | 1         | 0.79%   |
+| WD3000FYYZ-01UL1B3 3TB      | 1         | 0.79%   |
+| WD20EZRX-00D8PB0 2TB        | 1         | 0.79%   |
+| WD2003FZEX-00Z4SA0 2TB      | 1         | 0.79%   |
+| WD15EARS-00MVWB0 1TB        | 1         | 0.79%   |
+| WD1502FAEX-007BA0 1TB       | 1         | 0.79%   |
+| WD10EZEX-00WN4A0 1TB        | 1         | 0.79%   |
+| WD10EZEX-00BN5A0 1TB        | 1         | 0.79%   |
+| WD10EFRX-68PJCN0 1TB        | 1         | 0.79%   |
+| WD1003FZEX-00K3CA0 1TB      | 1         | 0.79%   |
+| WD1002FAEX-00Z3A0 1TB       | 1         | 0.79%   |
+| WD1001FALS-40K1B0 1TB       | 1         | 0.79%   |
+| WD1001FALS-00K1B0 1TB       | 1         | 0.79%   |
+| VERTEX4 128GB SSD           | 1         | 0.79%   |
+| TS1TMTE220S 1TB             | 1         | 0.79%   |
+| SX900 256GB SSD             | 1         | 0.79%   |
+| SUV500240G 240GB SSD        | 1         | 0.79%   |
+| SuperVer 752GB              | 1         | 0.79%   |
+| ST9500420ASG 500GB          | 1         | 0.79%   |
+| ST8000VN0022-2EL112 8TB     | 1         | 0.79%   |
+| ST8000DM002-1YW112 8TB      | 1         | 0.79%   |
+| ST8000AS 0002-1NA17Z 8TB    | 1         | 0.79%   |
+| ST750LM022 HN-M750MBB 752GB | 1         | 0.79%   |
+| ST500DM002-1BD142 500GB     | 1         | 0.79%   |
+| ST380815AS 80GB             | 1         | 0.79%   |
+| ST31500341AS 1TB            | 1         | 0.79%   |
+| ST2000DM008-2FR102 2TB      | 1         | 0.79%   |
+| ST2000DM001-1ER164 2TB      | 1         | 0.79%   |
+| ST1000DM010-2EP102 1TB      | 1         | 0.79%   |
+| ST1000DM003-1ER162 1TB      | 1         | 0.79%   |
+| ST1000DM003-1CH162 1TB      | 1         | 0.79%   |
+| SSDSA2CT040G3 40GB          | 1         | 0.79%   |
+| SSDPEKNW010T8 1TB           | 1         | 0.79%   |
+| ssd v300a 240GB             | 1         | 0.79%   |
+| SSD Sata III 256GB          | 1         | 0.79%   |
+| SSD Sata III 240GB          | 1         | 0.79%   |
+| SSD PM871 2.5 7mm 256GB     | 1         | 0.79%   |
+| SSD PLUS 1000GB             | 1         | 0.79%   |
+| SSD 970 EVO Plus 500GB      | 1         | 0.79%   |
 
 Drive Kind
 ----------
@@ -758,7 +760,7 @@ HDD or SSD
 | Kind    | Computers | Drives | Percent |
 |---------|-----------|--------|---------|
 | HDD     | 37        | 72     | 48.05%  |
-| SSD     | 30        | 51     | 38.96%  |
+| SSD     | 30        | 49     | 38.96%  |
 | NVMe    | 8         | 10     | 10.39%  |
 | Unknown | 2         | 2      | 2.6%    |
 
@@ -773,7 +775,7 @@ SATA, SAS, NVMe, etc.
 
 | Type | Computers | Drives | Percent |
 |------|-----------|--------|---------|
-| SATA | 44        | 121    | 78.57%  |
+| SATA | 44        | 119    | 78.57%  |
 | NVMe | 8         | 10     | 14.29%  |
 | SAS  | 4         | 4      | 7.14%   |
 
@@ -788,8 +790,8 @@ Size of hard drive
 
 | Size in TB | Computers | Drives | Percent |
 |------------|-----------|--------|---------|
-| 0.01-0.5   | 38        | 67     | 43.18%  |
-| 0.51-1.0   | 28        | 39     | 31.82%  |
+| 0.01-0.5   | 37        | 61     | 42.05%  |
+| 0.51-1.0   | 29        | 43     | 32.95%  |
 | 1.01-2.0   | 10        | 14     | 11.36%  |
 | 2.01-3.0   | 5         | 5      | 5.68%   |
 | 3.01-4.0   | 4         | 6      | 4.55%   |
@@ -846,12 +848,11 @@ Drive models with a malfunction
 
 ![Malfunc. Drives](./images/line_chart/drive_malfunc.svg)
 
-| Model               | Computers | Drives | Percent |
-|---------------------|-----------|--------|---------|
-| WD40EFRX-68W 4TB    | 1         | 1      | 25%     |
-| WD1001FALS-4 1TB    | 1         | 1      | 25%     |
-| HTS721010A9E630 1TB | 1         | 1      | 25%     |
-| Force LS SSD 64GB   | 1         | 1      | 25%     |
+| Model                 | Computers | Drives | Percent |
+|-----------------------|-----------|--------|---------|
+| WD40EFRX-68WT0N0 4TB  | 1         | 1      | 33.33%  |
+| WD1001FALS-40K1B0 1TB | 1         | 1      | 33.33%  |
+| Force LS SSD 64GB     | 1         | 1      | 33.33%  |
 
 Malfunc. Drive Vendor
 ---------------------
@@ -864,9 +865,8 @@ Vendors of faulty drives
 
 | Vendor  | Computers | Drives | Percent |
 |---------|-----------|--------|---------|
-| WDC     | 2         | 2      | 50%     |
-| HGST    | 1         | 1      | 25%     |
-| Corsair | 1         | 1      | 25%     |
+| WDC     | 2         | 2      | 66.67%  |
+| Corsair | 1         | 1      | 33.33%  |
 
 Malfunc. Drive Kind
 -------------------
@@ -879,7 +879,7 @@ Kinds of faulty drives
 
 | Kind | Computers | Drives | Percent |
 |------|-----------|--------|---------|
-| HDD  | 2         | 3      | 66.67%  |
+| HDD  | 2         | 2      | 66.67%  |
 | SSD  | 1         | 1      | 33.33%  |
 
 Failed Drives
@@ -907,9 +907,104 @@ Number of failed and malfunc. drives
 
 | Status   | Computers | Drives | Percent |
 |----------|-----------|--------|---------|
-| Detected | 26        | 67     | 52%     |
-| Works    | 21        | 64     | 42%     |
-| Malfunc  | 3         | 4      | 6%      |
+| Detected | 27        | 71     | 52.94%  |
+| Works    | 21        | 59     | 41.18%  |
+| Malfunc  | 3         | 3      | 5.88%   |
+
+Storage Vendor
+--------------
+
+Storage controller vendors
+
+![Storage Vendor](./images/pie_chart/storage_vendor.svg)
+
+![Storage Vendor](./images/line_chart/storage_vendor.svg)
+
+| Vendor                           | Computers | Percent |
+|----------------------------------|-----------|---------|
+| AMD                              | 24        | 33.8%   |
+| Intel                            | 23        | 32.39%  |
+| Samsung Electronics              | 11        | 15.49%  |
+| Sandisk                          | 2         | 2.82%   |
+| Phison Electronics               | 2         | 2.82%   |
+| Marvell Technology Group         | 2         | 2.82%   |
+| ASMedia Technology               | 2         | 2.82%   |
+| Silicon Motion                   | 1         | 1.41%   |
+| Silicon Integrated Systems [SiS] | 1         | 1.41%   |
+| Lite-On Technology               | 1         | 1.41%   |
+| JMicron Technology               | 1         | 1.41%   |
+| Integrated Technology Express    | 1         | 1.41%   |
+
+Storage Model
+-------------
+
+Storage controller models
+
+![Storage Model](./images/pie_chart/storage_model.svg)
+
+![Storage Model](./images/line_chart/storage_model.svg)
+
+| Model                                                                    | Computers | Percent |
+|--------------------------------------------------------------------------|-----------|---------|
+| FCH SATA Controller [AHCI mode]                                          | 19        | 20.21%  |
+| NVMe SSD Controller SM981/PM981/PM983                                    | 9         | 9.57%   |
+| Cannon Lake PCH SATA AHCI Controller                                     | 5         | 5.32%   |
+| 400 Series Chipset SATA Controller                                       | 5         | 5.32%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [AHCI mode]                            | 3         | 3.19%   |
+| SB7x0/SB8x0/SB9x0 IDE Controller                                         | 3         | 3.19%   |
+| Q170/Q150/B150/H170/H110/Z170/CM236 Chipset SATA Controller [AHCI Mode]  | 3         | 3.19%   |
+| FCH IDE Controller                                                       | 3         | 3.19%   |
+| 8 Series/C220 Series Chipset Family 6-port SATA Controller 1 [AHCI mode] | 3         | 3.19%   |
+| 300 Series Chipset SATA Controller                                       | 3         | 3.19%   |
+| X370 Series Chipset SATA Controller                                      | 2         | 2.13%   |
+| WD Black 2018/PC SN720 NVMe SSD                                          | 2         | 2.13%   |
+| E12 NVMe Controller                                                      | 2         | 2.13%   |
+| ASM1062 Serial ATA Controller                                            | 2         | 2.13%   |
+| 200 Series PCH SATA controller [AHCI mode]                               | 2         | 2.13%   |
+| X399 Series Chipset SATA Controller                                      | 1         | 1.06%   |
+| SSD 660P Series                                                          | 1         | 1.06%   |
+| SSD 600P Series                                                          | 1         | 1.06%   |
+| SB7x0/SB8x0/SB9x0 SATA Controller [IDE mode]                             | 1         | 1.06%   |
+| SATA Controller [RAID mode]                                              | 1         | 1.06%   |
+| SATA Controller / IDE mode                                               | 1         | 1.06%   |
+| NVMe SSD Controller SM961/PM961                                          | 1         | 1.06%   |
+| NVMe SSD Controller SM951/PM951                                          | 1         | 1.06%   |
+| Non-Volatile memory controller                                           | 1         | 1.06%   |
+| NM10/ICH7 Family SATA Controller [IDE mode]                              | 1         | 1.06%   |
+| M8Pe Series NVMe SSD                                                     | 1         | 1.06%   |
+| JMB368 IDE controller                                                    | 1         | 1.06%   |
+| IT8213 IDE Controller                                                    | 1         | 1.06%   |
+| FCH SATA Controller [IDE mode]                                           | 1         | 1.06%   |
+| FCH SATA Controller D                                                    | 1         | 1.06%   |
+| C610/X99 series chipset 6-Port SATA Controller [AHCI mode]               | 1         | 1.06%   |
+| 92xx SATA 6G Controller                                                  | 1         | 1.06%   |
+| 9 Series Chipset Family SATA Controller [AHCI Mode]                      | 1         | 1.06%   |
+| 88SE9128 PCIe SATA 6 Gb/s RAID controller                                | 1         | 1.06%   |
+| 82801JI (ICH10 Family) 4 port SATA IDE Controller #1                     | 1         | 1.06%   |
+| 82801JI (ICH10 Family) 2 port SATA IDE Controller #2                     | 1         | 1.06%   |
+| 82801G (ICH7 Family) IDE Controller                                      | 1         | 1.06%   |
+| 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode]   | 1         | 1.06%   |
+| 7 Series/C210 Series Chipset Family 4-port SATA Controller [IDE mode]    | 1         | 1.06%   |
+| 7 Series/C210 Series Chipset Family 2-port SATA Controller [IDE mode]    | 1         | 1.06%   |
+| 5513 IDE Controller                                                      | 1         | 1.06%   |
+| 5 Series/3400 Series Chipset 4 port SATA IDE Controller                  | 1         | 1.06%   |
+| 5 Series/3400 Series Chipset 2 port SATA IDE Controller                  | 1         | 1.06%   |
+
+Storage Kind
+------------
+
+Kind of storage controller (IDE, SATA, NVMe, SAS, ...)
+
+![Storage Kind](./images/pie_chart/storage_kind.svg)
+
+![Storage Kind](./images/line_chart/storage_kind.svg)
+
+| Kind | Computers | Percent |
+|------|-----------|---------|
+| SATA | 40        | 57.97%  |
+| NVMe | 17        | 24.64%  |
+| IDE  | 11        | 15.94%  |
+| RAID | 1         | 1.45%   |
 
 CPU Vendor
 ----------
@@ -1382,15 +1477,13 @@ Diagonal size in inches
 | 21      | 8         | 13.56%  |
 | 19      | 7         | 11.86%  |
 | 31      | 6         | 10.17%  |
+| 24      | 5         | 8.47%   |
 | Unknown | 5         | 8.47%   |
-| 24      | 4         | 6.78%   |
 | 22      | 4         | 6.78%   |
+| 29      | 2         | 3.39%   |
 | 18      | 2         | 3.39%   |
 | 36      | 1         | 1.69%   |
 | 34      | 1         | 1.69%   |
-| 29      | 1         | 1.69%   |
-| 28      | 1         | 1.69%   |
-| 25      | 1         | 1.69%   |
 
 Monitor Width
 -------------
@@ -1441,14 +1534,14 @@ Area in inch²
 
 | Area in inch² | Computers | Percent |
 |----------------|-----------|---------|
-| 201-250        | 17        | 30.36%  |
-| 151-200        | 11        | 19.64%  |
-| 301-350        | 10        | 17.86%  |
-| 351-500        | 7         | 12.5%   |
-| Unknown        | 5         | 8.93%   |
-| 251-300        | 3         | 5.36%   |
-| 141-150        | 2         | 3.57%   |
-| 501-1000       | 1         | 1.79%   |
+| 201-250        | 17        | 30.91%  |
+| 151-200        | 11        | 20%     |
+| 301-350        | 10        | 18.18%  |
+| 351-500        | 7         | 12.73%  |
+| Unknown        | 5         | 9.09%   |
+| 251-300        | 2         | 3.64%   |
+| 141-150        | 2         | 3.64%   |
+| 501-1000       | 1         | 1.82%   |
 
 Pixel Density
 -------------
