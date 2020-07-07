@@ -53,6 +53,7 @@ Contents
 - [ Space Used               ](#space-used)
 - [ Malfunc. Drives          ](#malfunc-drives)
 - [ Malfunc. Drive Vendor    ](#malfunc-drive-vendor)
+- [ Malfunc. HDD Vendor      ](#malfunc-hdd-vendor)
 - [ Malfunc. Drive Kind      ](#malfunc-drive-kind)
 - [ Failed Drives            ](#failed-drives)
 - [ Failed Drive Vendor      ](#failed-drive-vendor)
@@ -85,9 +86,15 @@ Contents
 - [ Multiple Monitors        ](#multiple-monitors)
 - [ Net Controller Vendor    ](#net-controller-vendor)
 - [ Net Controller Model     ](#net-controller-model)
+- [ Wireless Vendor          ](#wireless-vendor)
+- [ Wireless Model           ](#wireless-model)
+- [ Ethernet Vendor          ](#ethernet-vendor)
+- [ Ethernet Model           ](#ethernet-model)
 - [ Net Controller Kind      ](#net-controller-kind)
 - [ Used Controller          ](#used-controller)
 - [ NICs                     ](#nics)
+- [ Bluetooth Vendor         ](#bluetooth-vendor)
+- [ Bluetooth Model          ](#bluetooth-model)
 - [ Unsupported Devices      ](#unsupported-devices)
 - [ Unsupported Device Types ](#unsupported-device-types)
 
@@ -369,9 +376,9 @@ Scheme of partitioning
 
 | Type    | Computers | Percent |
 |---------|-----------|---------|
-| Unknown | 77        | 66.96%  |
-| GPT     | 26        | 22.61%  |
-| MBR     | 12        | 10.43%  |
+| Unknown | 75        | 65.22%  |
+| GPT     | 27        | 23.48%  |
+| MBR     | 13        | 11.3%   |
 
 Dual Boot with Linux/BSD
 ------------------------
@@ -731,13 +738,13 @@ Physical design of the computer
 
 ![Form Factor](./images/line_chart/node_formfactor.svg)
 
-| Name        | Computers | Percent |
-|-------------|-----------|---------|
-| Notebook    | 66        | 57.39%  |
-| Desktop     | 43        | 37.39%  |
-| Other       | 2         | 1.74%   |
-| Convertible | 2         | 1.74%   |
-| Server      | 2         | 1.74%   |
+| Name           | Computers | Percent |
+|----------------|-----------|---------|
+| Notebook       | 66        | 57.39%  |
+| Desktop        | 44        | 38.26%  |
+| Convertible    | 2         | 1.74%   |
+| Server         | 2         | 1.74%   |
+| System on chip | 1         | 0.87%   |
 
 Secure Boot
 -----------
@@ -969,12 +976,12 @@ Size of hard drive
 
 | Size in TB | Computers | Drives | Percent |
 |------------|-----------|--------|---------|
-| 0.01-0.5   | 81        | 114    | 54%     |
-| 0.51-1.0   | 46        | 52     | 30.67%  |
-| 1.01-2.0   | 12        | 19     | 8%      |
-| 3.01-4.0   | 6         | 6      | 4%      |
-| 2.01-3.0   | 3         | 4      | 2%      |
-| 4.01-10.0  | 2         | 2      | 1.33%   |
+| 0.01-0.5   | 81        | 113    | 53.29%  |
+| 0.51-1.0   | 47        | 53     | 30.92%  |
+| 1.01-2.0   | 12        | 18     | 7.89%   |
+| 3.01-4.0   | 6         | 6      | 3.95%   |
+| 2.01-3.0   | 3         | 4      | 1.97%   |
+| 4.01-10.0  | 3         | 3      | 1.97%   |
 
 Space Total
 -----------
@@ -1071,6 +1078,24 @@ Vendors of faulty drives
 | Maxtor              | 1         | 1      | 5.56%   |
 | Kingston            | 1         | 1      | 5.56%   |
 | HGST                | 1         | 1      | 5.56%   |
+
+Malfunc. HDD Vendor
+-------------------
+
+Vendors of faulty HDD drives
+
+![Malfunc. HDD Vendor](./images/pie_chart/drive_malfunc_hdd_vendor.svg)
+
+![Malfunc. HDD Vendor](./images/line_chart/drive_malfunc_hdd_vendor.svg)
+
+| Vendor  | Computers | Drives | Percent |
+|---------|-----------|--------|---------|
+| Seagate | 6         | 6      | 42.86%  |
+| WDC     | 2         | 2      | 14.29%  |
+| Toshiba | 2         | 2      | 14.29%  |
+| Hitachi | 2         | 2      | 14.29%  |
+| Maxtor  | 1         | 1      | 7.14%   |
+| HGST    | 1         | 1      | 7.14%   |
 
 Malfunc. Drive Kind
 -------------------
@@ -1824,14 +1849,13 @@ Diagonal size in inches
 | 19      | 4         | 3.2%    |
 | 24      | 3         | 2.4%    |
 | 22      | 3         | 2.4%    |
+| 40      | 2         | 1.6%    |
 | 32      | 2         | 1.6%    |
 | 25      | 2         | 1.6%    |
 | 20      | 2         | 1.6%    |
 | 10      | 2         | 1.6%    |
-| 40      | 1         | 0.8%    |
-| 37      | 1         | 0.8%    |
-| 34      | 1         | 0.8%    |
 | 29      | 1         | 0.8%    |
+| 28      | 1         | 0.8%    |
 | 26      | 1         | 0.8%    |
 | 18      | 1         | 0.8%    |
 | 16      | 1         | 0.8%    |
@@ -1854,9 +1878,9 @@ Physical width
 | 201-300     | 15        | 12.3%   |
 | 351-400     | 9         | 7.38%   |
 | Unknown     | 9         | 7.38%   |
-| 701-800     | 3         | 2.46%   |
-| 601-700     | 3         | 2.46%   |
+| 601-700     | 4         | 3.28%   |
 | 801-900     | 2         | 1.64%   |
+| 701-800     | 2         | 1.64%   |
 
 Aspect Ratio
 ------------
@@ -1870,12 +1894,12 @@ Proportional relationship between the width and the height
 | Ratio   | Computers | Percent |
 |---------|-----------|---------|
 | 16/9    | 84        | 75.68%  |
-| 16/10   | 10        | 9.01%   |
+| 16/10   | 11        | 9.91%   |
 | Unknown | 9         | 8.11%   |
 | 5/4     | 3         | 2.7%    |
-| 3/2     | 2         | 1.8%    |
 | 6/5     | 1         | 0.9%    |
 | 4/3     | 1         | 0.9%    |
+| 3/2     | 1         | 0.9%    |
 | 21/9    | 1         | 0.9%    |
 
 Monitor Area
@@ -1898,9 +1922,9 @@ Area in inch²
 | 301-350        | 7         | 5.74%   |
 | 71-80          | 6         | 4.92%   |
 | 61-70          | 5         | 4.1%    |
-| 251-300        | 4         | 3.28%   |
-| 351-500        | 3         | 2.46%   |
+| 251-300        | 5         | 4.1%    |
 | 141-150        | 3         | 2.46%   |
+| 351-500        | 2         | 1.64%   |
 | 41-50          | 2         | 1.64%   |
 | 501-1000       | 2         | 1.64%   |
 | 51-60          | 1         | 0.82%   |
@@ -1951,15 +1975,28 @@ Controller vendors
 
 ![Net Controller Vendor](./images/line_chart/net_vendor.svg)
 
-| Vendor                | Computers | Percent |
-|-----------------------|-----------|---------|
-| Intel                 | 29        | 74.36%  |
-| Realtek Semiconductor | 5         | 12.82%  |
-| YiHiEcigar            | 1         | 2.56%   |
-| Standard Microsystems | 1         | 2.56%   |
-| Nvidia                | 1         | 2.56%   |
-| LG Electronics        | 1         | 2.56%   |
-| ASIX Electronics      | 1         | 2.56%   |
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Intel                           | 66        | 38.82%  |
+| Realtek Semiconductor           | 53        | 31.18%  |
+| Qualcomm Atheros                | 24        | 14.12%  |
+| Broadcom Inc. and subsidiaries  | 6         | 3.53%   |
+| Marvell Technology Group        | 4         | 2.35%   |
+| Broadcom Limited                | 2         | 1.18%   |
+| ASUSTek Computer                | 2         | 1.18%   |
+| YiHiEcigar                      | 1         | 0.59%   |
+| TP-Link                         | 1         | 0.59%   |
+| Solarflare Communications       | 1         | 0.59%   |
+| Ralink Technology               | 1         | 0.59%   |
+| Ralink                          | 1         | 0.59%   |
+| Qualcomm Atheros Communications | 1         | 0.59%   |
+| Nvidia                          | 1         | 0.59%   |
+| Microchip Technology            | 1         | 0.59%   |
+| Linksys                         | 1         | 0.59%   |
+| LG Electronics                  | 1         | 0.59%   |
+| Edimax Technology               | 1         | 0.59%   |
+| Broadcom                        | 1         | 0.59%   |
+| ASIX Electronics                | 1         | 0.59%   |
 
 Net Controller Model
 --------------------
@@ -1970,30 +2007,225 @@ Controller models
 
 ![Net Controller Model](./images/line_chart/net_model.svg)
 
-| Model                                                     | Computers | Percent |
-|-----------------------------------------------------------|-----------|---------|
-| I211 Gigabit Network Connection                           | 8         | 17.02%  |
-| 82579LM Gigabit Network Connection (Lewisville)           | 6         | 12.77%  |
-| Wireless 8265 / 8275                                      | 3         | 6.38%   |
-| Wi-Fi 6 AX200                                             | 3         | 6.38%   |
-| 82577LM Gigabit Network Connection                        | 3         | 6.38%   |
-| RTL8723DE Wireless Network Adapter                        | 2         | 4.26%   |
-| Centrino Ultimate-N 6300                                  | 2         | 4.26%   |
-| Centrino Advanced-N 6205 [Taylor Peak]                    | 2         | 4.26%   |
-| Centrino Advanced-N 6200                                  | 2         | 4.26%   |
-| 82579V Gigabit Network Connection                         | 2         | 4.26%   |
-| 82574L Gigabit Network Connection                         | 2         | 4.26%   |
-| 82567LM Gigabit Network Connection                        | 2         | 4.26%   |
-| SX550J-B                                                  | 1         | 2.13%   |
-| SMSC9512/9514 Fast Ethernet Adapter                       | 1         | 2.13%   |
-| RTL8153 Gigabit Ethernet Adapter                          | 1         | 2.13%   |
-| RTL8152 Fast Ethernet Adapter                             | 1         | 2.13%   |
-| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller | 1         | 2.13%   |
-| MCP61 Ethernet                                            | 1         | 2.13%   |
-| G2 Android Phone [tethering mode]                         | 1         | 2.13%   |
-| AX88772B                                                  | 1         | 2.13%   |
-| 82576 Gigabit Network Connection                          | 1         | 2.13%   |
-| 802.11n WLAN Adapter                                      | 1         | 2.13%   |
+| Model                                                            | Computers | Percent |
+|------------------------------------------------------------------|-----------|---------|
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller        | 39        | 19.02%  |
+| RTL810xE PCI Express Fast Ethernet controller                    | 8         | 3.9%    |
+| I211 Gigabit Network Connection                                  | 8         | 3.9%    |
+| Wireless 3165                                                    | 6         | 2.93%   |
+| QCA9377 802.11ac Wireless Network Adapter                        | 6         | 2.93%   |
+| 82579LM Gigabit Network Connection (Lewisville)                  | 6         | 2.93%   |
+| Wireless-AC 9560 [Jefferson Peak]                                | 5         | 2.44%   |
+| Wireless 8265 / 8275                                             | 5         | 2.44%   |
+| Wireless 7260                                                    | 5         | 2.44%   |
+| Cannon Point-LP CNVi [Wireless-AC]                               | 5         | 2.44%   |
+| AR9285 Wireless Network Adapter (PCI-Express)                    | 5         | 2.44%   |
+| Wireless 7265                                                    | 4         | 1.95%   |
+| Wi-Fi 6 AX200                                                    | 3         | 1.46%   |
+| Ethernet Connection I218-LM                                      | 3         | 1.46%   |
+| 82577LM Gigabit Network Connection                               | 3         | 1.46%   |
+| Wireless-AC 9260                                                 | 2         | 0.98%   |
+| Wireless 3160                                                    | 2         | 0.98%   |
+| RTL8723DE Wireless Network Adapter                               | 2         | 0.98%   |
+| RTL8723BE PCIe Wireless Network Adapter                          | 2         | 0.98%   |
+| RTL8188EUS 802.11n Wireless Network Adapter                      | 2         | 0.98%   |
+| QCA9565 / AR9565 Wireless Network Adapter                        | 2         | 0.98%   |
+| QCA6174 802.11ac Wireless Network Adapter                        | 2         | 0.98%   |
+| Ethernet Connection (7) I219-V                                   | 2         | 0.98%   |
+| Ethernet Connection (6) I219-V                                   | 2         | 0.98%   |
+| Ethernet Connection (4) I219-V                                   | 2         | 0.98%   |
+| Ethernet Connection (3) I218-LM                                  | 2         | 0.98%   |
+| Centrino Ultimate-N 6300                                         | 2         | 0.98%   |
+| Centrino Advanced-N 6205 [Taylor Peak]                           | 2         | 0.98%   |
+| Centrino Advanced-N 6200                                         | 2         | 0.98%   |
+| BCM4360 802.11ac Wireless Network Adapter                        | 2         | 0.98%   |
+| AR9485 Wireless Network Adapter                                  | 2         | 0.98%   |
+| AR9227 Wireless Network Adapter                                  | 2         | 0.98%   |
+| 88E8040 PCI-E Fast Ethernet Controller                           | 2         | 0.98%   |
+| 82599ES 10-Gigabit SFI/SFP+ Network Connection                   | 2         | 0.98%   |
+| 82579V Gigabit Network Connection                                | 2         | 0.98%   |
+| 82574L Gigabit Network Connection                                | 2         | 0.98%   |
+| 82567LM Gigabit Network Connection                               | 2         | 0.98%   |
+| Yukon Optima 88E8059 [PCIe Gigabit Ethernet Controller with AVB] | 1         | 0.49%   |
+| Wireless 8260                                                    | 1         | 0.49%   |
+| WiFi Link 5100                                                   | 1         | 0.49%   |
+| USB3.0 802.11ac 1200M Adapter                                    | 1         | 0.49%   |
+| USB-N10 802.11n Network Adapter [Realtek RTL8188SU]              | 1         | 0.49%   |
+| Ultimate N WiFi Link 5300                                        | 1         | 0.49%   |
+| SX550J-B                                                         | 1         | 0.49%   |
+| SMSC9512/9514 Fast Ethernet Adapter                              | 1         | 0.49%   |
+| SFC9120 10G Ethernet Controller                                  | 1         | 0.49%   |
+| RTL8822BE 802.11a/b/g/n/ac WiFi adapter                          | 1         | 0.49%   |
+| RTL8821CE 802.11ac PCIe Wireless Network Adapter                 | 1         | 0.49%   |
+| RTL8814AU 802.11a/b/g/n/ac Wireless Adapter                      | 1         | 0.49%   |
+| RTL8192CE PCIe Wireless Network Adapter                          | 1         | 0.49%   |
+| RTL8187B Wireless 802.11g 54Mbps Network Adapter                 | 1         | 0.49%   |
+| RTL8153 Gigabit Ethernet Adapter                                 | 1         | 0.49%   |
+| RTL8152 Fast Ethernet Adapter                                    | 1         | 0.49%   |
+| RT2561/RT61 rev B 802.11g                                        | 1         | 0.49%   |
+| NetXtreme BCM5761e Gigabit Ethernet PCIe                         | 1         | 0.49%   |
+| NetXtreme BCM5723 Gigabit Ethernet PCIe                          | 1         | 0.49%   |
+| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe                   | 1         | 0.49%   |
+| NetLink BCM57785 Gigabit Ethernet PCIe                           | 1         | 0.49%   |
+| MT7601U Wireless Adapter                                         | 1         | 0.49%   |
+| MCP61 Ethernet                                                   | 1         | 0.49%   |
+
+Wireless Vendor
+---------------
+
+Wireless vendors
+
+![Wireless Vendor](./images/pie_chart/net_wireless_vendor.svg)
+
+![Wireless Vendor](./images/line_chart/net_wireless_vendor.svg)
+
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Intel                           | 48        | 50.53%  |
+| Qualcomm Atheros                | 22        | 23.16%  |
+| Realtek Semiconductor           | 12        | 12.63%  |
+| Broadcom Limited                | 2         | 2.11%   |
+| Broadcom Inc. and subsidiaries  | 2         | 2.11%   |
+| ASUSTek Computer                | 2         | 2.11%   |
+| TP-Link                         | 1         | 1.05%   |
+| Ralink Technology               | 1         | 1.05%   |
+| Ralink                          | 1         | 1.05%   |
+| Qualcomm Atheros Communications | 1         | 1.05%   |
+| Linksys                         | 1         | 1.05%   |
+| Edimax Technology               | 1         | 1.05%   |
+| Broadcom                        | 1         | 1.05%   |
+
+Wireless Model
+--------------
+
+Wireless models
+
+![Wireless Model](./images/pie_chart/net_wireless_model.svg)
+
+![Wireless Model](./images/line_chart/net_wireless_model.svg)
+
+| Model                                                   | Computers | Percent |
+|---------------------------------------------------------|-----------|---------|
+| Wireless 3165                                           | 6         | 6.25%   |
+| QCA9377 802.11ac Wireless Network Adapter               | 6         | 6.25%   |
+| Wireless-AC 9560 [Jefferson Peak]                       | 5         | 5.21%   |
+| Wireless 8265 / 8275                                    | 5         | 5.21%   |
+| Wireless 7260                                           | 5         | 5.21%   |
+| Cannon Point-LP CNVi [Wireless-AC]                      | 5         | 5.21%   |
+| AR9285 Wireless Network Adapter (PCI-Express)           | 5         | 5.21%   |
+| Wireless 7265                                           | 4         | 4.17%   |
+| Wi-Fi 6 AX200                                           | 3         | 3.13%   |
+| Wireless-AC 9260                                        | 2         | 2.08%   |
+| Wireless 3160                                           | 2         | 2.08%   |
+| RTL8723DE Wireless Network Adapter                      | 2         | 2.08%   |
+| RTL8723BE PCIe Wireless Network Adapter                 | 2         | 2.08%   |
+| RTL8188EUS 802.11n Wireless Network Adapter             | 2         | 2.08%   |
+| QCA9565 / AR9565 Wireless Network Adapter               | 2         | 2.08%   |
+| QCA6174 802.11ac Wireless Network Adapter               | 2         | 2.08%   |
+| Centrino Ultimate-N 6300                                | 2         | 2.08%   |
+| Centrino Advanced-N 6205 [Taylor Peak]                  | 2         | 2.08%   |
+| Centrino Advanced-N 6200                                | 2         | 2.08%   |
+| BCM4360 802.11ac Wireless Network Adapter               | 2         | 2.08%   |
+| AR9485 Wireless Network Adapter                         | 2         | 2.08%   |
+| AR9227 Wireless Network Adapter                         | 2         | 2.08%   |
+| Wireless 8260                                           | 1         | 1.04%   |
+| WiFi Link 5100                                          | 1         | 1.04%   |
+| USB3.0 802.11ac 1200M Adapter                           | 1         | 1.04%   |
+| USB-N10 802.11n Network Adapter [Realtek RTL8188SU]     | 1         | 1.04%   |
+| Ultimate N WiFi Link 5300                               | 1         | 1.04%   |
+| RTL8822BE 802.11a/b/g/n/ac WiFi adapter                 | 1         | 1.04%   |
+| RTL8821CE 802.11ac PCIe Wireless Network Adapter        | 1         | 1.04%   |
+| RTL8814AU 802.11a/b/g/n/ac Wireless Adapter             | 1         | 1.04%   |
+| RTL8192CE PCIe Wireless Network Adapter                 | 1         | 1.04%   |
+| RTL8187B Wireless 802.11g 54Mbps Network Adapter        | 1         | 1.04%   |
+| RT2561/RT61 rev B 802.11g                               | 1         | 1.04%   |
+| MT7601U Wireless Adapter                                | 1         | 1.04%   |
+| EW-7811Un 802.11n Wireless Adapter [Realtek RTL8188CUS] | 1         | 1.04%   |
+| Centrino Wireless-N 2230                                | 1         | 1.04%   |
+| Centrino Wireless-N 1000 [Condor Peak]                  | 1         | 1.04%   |
+| BCM4350 802.11ac Wireless Network Adapter               | 1         | 1.04%   |
+| BCM4322 802.11a/b/g/n Wireless LAN Controller           | 1         | 1.04%   |
+| BCM4313 802.11bgn Wireless Network Adapter              | 1         | 1.04%   |
+| AR93xx Wireless Network Adapter                         | 1         | 1.04%   |
+| AR9271 802.11n                                          | 1         | 1.04%   |
+| AR5212/5213/2414 Wireless Network Adapter               | 1         | 1.04%   |
+| AR242x / AR542x Wireless Network Adapter (PCI-Express)  | 1         | 1.04%   |
+| AE1200 802.11bgn Wireless Adapter [Broadcom BCM43235]   | 1         | 1.04%   |
+| 802.11n WLAN Adapter                                    | 1         | 1.04%   |
+| 802.11ac WLAN Adapter                                   | 1         | 1.04%   |
+| 802.11ac NIC                                            | 1         | 1.04%   |
+
+Ethernet Vendor
+---------------
+
+Ethernet vendors
+
+![Ethernet Vendor](./images/pie_chart/net_ethernet_vendor.svg)
+
+![Ethernet Vendor](./images/line_chart/net_ethernet_vendor.svg)
+
+| Vendor                         | Computers | Percent |
+|--------------------------------|-----------|---------|
+| Realtek Semiconductor          | 49        | 46.23%  |
+| Intel                          | 39        | 36.79%  |
+| Qualcomm Atheros               | 5         | 4.72%   |
+| Marvell Technology Group       | 4         | 3.77%   |
+| Broadcom Inc. and subsidiaries | 4         | 3.77%   |
+| Solarflare Communications      | 1         | 0.94%   |
+| Nvidia                         | 1         | 0.94%   |
+| Microchip Technology           | 1         | 0.94%   |
+| LG Electronics                 | 1         | 0.94%   |
+| ASIX Electronics               | 1         | 0.94%   |
+
+Ethernet Model
+--------------
+
+Ethernet models
+
+![Ethernet Model](./images/pie_chart/net_ethernet_model.svg)
+
+![Ethernet Model](./images/line_chart/net_ethernet_model.svg)
+
+| Model                                                                   | Computers | Percent |
+|-------------------------------------------------------------------------|-----------|---------|
+| RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller               | 39        | 36.11%  |
+| RTL810xE PCI Express Fast Ethernet controller                           | 8         | 7.41%   |
+| I211 Gigabit Network Connection                                         | 8         | 7.41%   |
+| 82579LM Gigabit Network Connection (Lewisville)                         | 6         | 5.56%   |
+| Ethernet Connection I218-LM                                             | 3         | 2.78%   |
+| 82577LM Gigabit Network Connection                                      | 3         | 2.78%   |
+| Ethernet Connection (7) I219-V                                          | 2         | 1.85%   |
+| Ethernet Connection (6) I219-V                                          | 2         | 1.85%   |
+| Ethernet Connection (4) I219-V                                          | 2         | 1.85%   |
+| Ethernet Connection (3) I218-LM                                         | 2         | 1.85%   |
+| 88E8040 PCI-E Fast Ethernet Controller                                  | 2         | 1.85%   |
+| 82599ES 10-Gigabit SFI/SFP+ Network Connection                          | 2         | 1.85%   |
+| 82579V Gigabit Network Connection                                       | 2         | 1.85%   |
+| 82574L Gigabit Network Connection                                       | 2         | 1.85%   |
+| 82567LM Gigabit Network Connection                                      | 2         | 1.85%   |
+| Yukon Optima 88E8059 [PCIe Gigabit Ethernet Controller with AVB]        | 1         | 0.93%   |
+| SMSC9512/9514 Fast Ethernet Adapter                                     | 1         | 0.93%   |
+| SFC9120 10G Ethernet Controller                                         | 1         | 0.93%   |
+| RTL8153 Gigabit Ethernet Adapter                                        | 1         | 0.93%   |
+| RTL8152 Fast Ethernet Adapter                                           | 1         | 0.93%   |
+| NetXtreme BCM5761e Gigabit Ethernet PCIe                                | 1         | 0.93%   |
+| NetXtreme BCM5723 Gigabit Ethernet PCIe                                 | 1         | 0.93%   |
+| NetXtreme BCM5720 2-port Gigabit Ethernet PCIe                          | 1         | 0.93%   |
+| NetLink BCM57785 Gigabit Ethernet PCIe                                  | 1         | 0.93%   |
+| MCP61 Ethernet                                                          | 1         | 0.93%   |
+| Killer E2500 Gigabit Ethernet Controller                                | 1         | 0.93%   |
+| G2 Android Phone [tethering mode]                                       | 1         | 0.93%   |
+| Ethernet Controller 10G X550T                                           | 1         | 0.93%   |
+| Ethernet Connection (6) I219-LM                                         | 1         | 0.93%   |
+| Ethernet Connection (2) I219-V                                          | 1         | 0.93%   |
+| AX88772B                                                                | 1         | 0.93%   |
+| AR8162 Fast Ethernet                                                    | 1         | 0.93%   |
+| AR8151 v2.0 Gigabit Ethernet                                            | 1         | 0.93%   |
+| AR8132 Fast Ethernet                                                    | 1         | 0.93%   |
+| AR8131 Gigabit Ethernet                                                 | 1         | 0.93%   |
+| 88E8001 Gigabit Ethernet Controller                                     | 1         | 0.93%   |
+| 82576 Gigabit Network Connection                                        | 1         | 0.93%   |
+| 82571EB/82571GB Gigabit Ethernet Controller D0/D1 (copper applications) | 1         | 0.93%   |
 
 Net Controller Kind
 -------------------
@@ -2006,9 +2238,9 @@ Ethernet, WiFi or modem
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| Ethernet | 31        | 65.96%  |
-| WiFi     | 15        | 31.91%  |
-| Modem    | 1         | 2.13%   |
+| Ethernet | 101       | 52.6%   |
+| WiFi     | 90        | 46.88%  |
+| Modem    | 1         | 0.52%   |
 
 Used Controller
 ---------------
@@ -2021,8 +2253,8 @@ Currently used network controller
 
 | Kind     | Computers | Percent |
 |----------|-----------|---------|
-| Ethernet | 16        | 61.54%  |
-| WiFi     | 10        | 38.46%  |
+| WiFi     | 71        | 60.17%  |
+| Ethernet | 47        | 39.83%  |
 
 NICs
 ----
@@ -2041,6 +2273,64 @@ Total network controllers on board
 | 4     | 2         | 1.74%   |
 | 6     | 1         | 0.87%   |
 | 3     | 1         | 0.87%   |
+
+Bluetooth Vendor
+----------------
+
+Controller vendors
+
+![Bluetooth Vendor](./images/pie_chart/bt_vendor.svg)
+
+![Bluetooth Vendor](./images/line_chart/bt_vendor.svg)
+
+| Vendor                          | Computers | Percent |
+|---------------------------------|-----------|---------|
+| Intel                           | 35        | 46.67%  |
+| Qualcomm Atheros Communications | 9         | 12%     |
+| Broadcom                        | 7         | 9.33%   |
+| Realtek Semiconductor           | 5         | 6.67%   |
+| Cambridge Silicon Radio         | 5         | 6.67%   |
+| ASUSTek Computer                | 4         | 5.33%   |
+| IMC Networks                    | 2         | 2.67%   |
+| Apple                           | 2         | 2.67%   |
+| Qualcomm Atheros                | 1         | 1.33%   |
+| Lite-On Technology              | 1         | 1.33%   |
+| Foxconn / Hon Hai               | 1         | 1.33%   |
+| Edimax Technology               | 1         | 1.33%   |
+| Dell                            | 1         | 1.33%   |
+| Belkin Components               | 1         | 1.33%   |
+
+Bluetooth Model
+---------------
+
+Controller models
+
+![Bluetooth Model](./images/pie_chart/bt_model.svg)
+
+![Bluetooth Model](./images/line_chart/bt_model.svg)
+
+| Model                                     | Computers | Percent |
+|-------------------------------------------|-----------|---------|
+| Bluetooth Device                          | 39        | 52%     |
+| Qualcomm Atheros Bluetooth Device         | 7         | 9.33%   |
+| Bluetooth Dongle (HCI mode)               | 5         | 6.67%   |
+| Bluetooth Radio                           | 4         | 5.33%   |
+| Bluetooth USB Host Controller             | 3         | 4%      |
+| AR3011 Bluetooth                          | 2         | 2.67%   |
+| 802.11n WLAN Adapter                      | 2         | 2.67%   |
+| Wi-Fi N150 Bluetooth4.0 USB Adapter       | 1         | 1.33%   |
+| HP Portable SoftSailing                   | 1         | 1.33%   |
+| F8T012 Bluetooth Adapter                  | 1         | 1.33%   |
+| DW375 Bluetooth Module                    | 1         | 1.33%   |
+| BT-253 Bluetooth Adapter                  | 1         | 1.33%   |
+| Broadcom BCM20702A0 Bluetooth             | 1         | 1.33%   |
+| Broadcom BCM20702 Bluetooth               | 1         | 1.33%   |
+| Bluetooth 2.1 Device                      | 1         | 1.33%   |
+| BCM20702A0 Bluetooth 4.0                  | 1         | 1.33%   |
+| BCM20702A0                                | 1         | 1.33%   |
+| BCM20702 Bluetooth 4.0 [ThinkPad]         | 1         | 1.33%   |
+| BCM2045B (BDC-2.1) [Bluetooth Controller] | 1         | 1.33%   |
+| BCM2045B (BDC-2.1)                        | 1         | 1.33%   |
 
 Unsupported Devices
 -------------------
@@ -2072,10 +2362,9 @@ Types of unsupported devices
 | Chipcard              | 12        | 19.05%  |
 | Graphics card         | 11        | 17.46%  |
 | Multimedia controller | 10        | 15.87%  |
+| Net/wireless          | 4         | 6.35%   |
 | Card reader           | 3         | 4.76%   |
 | Unassigned class      | 2         | 3.17%   |
-| Network               | 2         | 3.17%   |
-| Net/wireless          | 2         | 3.17%   |
 | Net/ethernet          | 2         | 3.17%   |
 | Storage               | 1         | 1.59%   |
 | Camera                | 1         | 1.59%   |
