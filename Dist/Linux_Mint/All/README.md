@@ -1,14 +1,14 @@
-Mint Hardware Trends
---------------------
+Linux Mint Hardware Trends
+--------------------------
 
 A project to identify most popular hardware characteristics and track their change
-over time based on data collected by Mint users at https://Linux-Hardware.org.
+over time based on data collected by Linux Mint users at https://Linux-Hardware.org.
 
 Anyone can contribute to this report by the [hw-probe](https://github.com/linuxhw/hw-probe) tool:
 
     sudo -E hw-probe -all -upload
 
-This is a report for all computer types. See also reports for [desktops](/Dist/Mint/Desktop/README.md) and [notebooks](/Dist/Mint/Notebook/README.md).
+This is a report for all computer types. See also reports for [desktops](/Dist/Linux_Mint/Desktop/README.md) and [notebooks](/Dist/Linux_Mint/Notebook/README.md).
 
 Full-feature report is available here: https://linux-hardware.org/?view=trends
 
@@ -167,16 +167,16 @@ Installed operating systems
 
 ![OS](./images/line_chart/os_name.svg)
 
-| Name      | Computers | Percent |
-|-----------|-----------|---------|
-| Mint 20.2 | 369       | 73.36%  |
-| Mint 20.1 | 50        | 9.94%   |
-| Mint 19.3 | 44        | 8.75%   |
-| Mint 20   | 27        | 5.37%   |
-| Mint 19   | 5         | 0.99%   |
-| Mint 19.1 | 3         | 0.6%    |
-| Mint 18.3 | 3         | 0.6%    |
-| Mint 19.2 | 2         | 0.4%    |
+| Name            | Computers | Percent |
+|-----------------|-----------|---------|
+| Linux Mint 20.2 | 369       | 73.36%  |
+| Linux Mint 20.1 | 50        | 9.94%   |
+| Linux Mint 19.3 | 44        | 8.75%   |
+| Linux Mint 20   | 27        | 5.37%   |
+| Linux Mint 19   | 5         | 0.99%   |
+| Linux Mint 19.1 | 3         | 0.6%    |
+| Linux Mint 18.3 | 3         | 0.6%    |
+| Linux Mint 19.2 | 2         | 0.4%    |
 
 OS Family
 ---------
@@ -187,9 +187,9 @@ OS without a version
 
 ![OS Family](./images/line_chart/os_family.svg)
 
-| Name | Computers | Percent |
-|------|-----------|---------|
-| Mint | 503       | 100%    |
+| Name       | Computers | Percent |
+|------------|-----------|---------|
+| Linux Mint | 503       | 100%    |
 
 Kernel
 ------

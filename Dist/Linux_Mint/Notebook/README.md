@@ -1,8 +1,8 @@
-Mint Hardware Trends (Notebooks)
---------------------------------
+Linux Mint Hardware Trends (Notebooks)
+--------------------------------------
 
 A project to identify most popular hardware characteristics and track their change
-over time based on data collected by Mint users at https://Linux-Hardware.org.
+over time based on data collected by Linux Mint users at https://Linux-Hardware.org.
 
 Anyone can contribute to this report by the [hw-probe](https://github.com/linuxhw/hw-probe) tool:
 
@@ -165,16 +165,16 @@ Installed operating systems
 
 ![OS](./images/line_chart/os_name.svg)
 
-| Name      | Notebooks | Percent |
-|-----------|-----------|---------|
-| Mint 20.2 | 194       | 70.55%  |
-| Mint 20.1 | 30        | 10.91%  |
-| Mint 19.3 | 22        | 8%      |
-| Mint 20   | 19        | 6.91%   |
-| Mint 19   | 3         | 1.09%   |
-| Mint 18.3 | 3         | 1.09%   |
-| Mint 19.2 | 2         | 0.73%   |
-| Mint 19.1 | 2         | 0.73%   |
+| Name            | Notebooks | Percent |
+|-----------------|-----------|---------|
+| Linux Mint 20.2 | 194       | 70.55%  |
+| Linux Mint 20.1 | 30        | 10.91%  |
+| Linux Mint 19.3 | 22        | 8%      |
+| Linux Mint 20   | 19        | 6.91%   |
+| Linux Mint 19   | 3         | 1.09%   |
+| Linux Mint 18.3 | 3         | 1.09%   |
+| Linux Mint 19.2 | 2         | 0.73%   |
+| Linux Mint 19.1 | 2         | 0.73%   |
 
 OS Family
 ---------
@@ -185,9 +185,9 @@ OS without a version
 
 ![OS Family](./images/line_chart/os_family.svg)
 
-| Name | Notebooks | Percent |
-|------|-----------|---------|
-| Mint | 275       | 100%    |
+| Name       | Notebooks | Percent |
+|------------|-----------|---------|
+| Linux Mint | 275       | 100%    |
 
 Kernel
 ------

@@ -1,8 +1,8 @@
-Mint Hardware Trends (Desktops)
--------------------------------
+Linux Mint Hardware Trends (Desktops)
+-------------------------------------
 
 A project to identify most popular hardware characteristics and track their change
-over time based on data collected by Mint users at https://Linux-Hardware.org.
+over time based on data collected by Linux Mint users at https://Linux-Hardware.org.
 
 Anyone can contribute to this report by the [hw-probe](https://github.com/linuxhw/hw-probe) tool:
 
@@ -165,13 +165,13 @@ Installed operating systems
 
 ![OS](./images/line_chart/os_name.svg)
 
-| Name      | Desktops | Percent |
-|-----------|----------|---------|
-| Mint 20.2 | 150      | 76.14%  |
-| Mint 19.3 | 20       | 10.15%  |
-| Mint 20.1 | 18       | 9.14%   |
-| Mint 20   | 7        | 3.55%   |
-| Mint 19   | 2        | 1.02%   |
+| Name            | Desktops | Percent |
+|-----------------|----------|---------|
+| Linux Mint 20.2 | 150      | 76.14%  |
+| Linux Mint 19.3 | 20       | 10.15%  |
+| Linux Mint 20.1 | 18       | 9.14%   |
+| Linux Mint 20   | 7        | 3.55%   |
+| Linux Mint 19   | 2        | 1.02%   |
 
 OS Family
 ---------
@@ -182,9 +182,9 @@ OS without a version
 
 ![OS Family](./images/line_chart/os_family.svg)
 
-| Name | Desktops | Percent |
-|------|----------|---------|
-| Mint | 197      | 100%    |
+| Name       | Desktops | Percent |
+|------------|----------|---------|
+| Linux Mint | 197      | 100%    |
 
 Kernel
 ------
