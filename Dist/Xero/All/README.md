@@ -12,7 +12,7 @@ This is a report for all computer types. See also reports for [desktops](/Dist/X
 
 This report is for one last month. Overall report since the beginning of time: [TestDays](https://github.com/linuxhw/TestDays)
 
-Period: Dec, 2024.
+Period: Dec, 2025.
 
 Contents
 --------
@@ -163,202 +163,105 @@ OS
 
 Installed operating systems
 
-![OS](./images/pie_chart/os_name.svg)
-
-![OS](./images/line_chart/os_name.svg)
-
-| Name         | Computers | Percent |
-|--------------|-----------|---------|
-| Xero Rolling | 2         | 100%    |
+Zero info for selected period =(
 
 OS Family
 ---------
 
 OS without a version
 
-![OS Family](./images/pie_chart/os_family.svg)
-
-![OS Family](./images/line_chart/os_family.svg)
-
-| Name | Computers | Percent |
-|------|-----------|---------|
-| Xero | 2         | 100%    |
+Zero info for selected period =(
 
 Kernel
 ------
 
 Version of the Linux kernel
 
-![Kernel](./images/pie_chart/os_kernel.svg)
-
-![Kernel](./images/line_chart/os_kernel.svg)
-
-| Version        | Computers | Percent |
-|----------------|-----------|---------|
-| 6.6.4-arch1-1  | 1         | 50%     |
-| 6.12.1-arch1-1 | 1         | 50%     |
+Zero info for selected period =(
 
 Kernel Family
 -------------
 
 Linux kernel without a distro release
 
-![Kernel Family](./images/pie_chart/os_kernel_family.svg)
-
-![Kernel Family](./images/line_chart/os_kernel_family.svg)
-
-| Version | Computers | Percent |
-|---------|-----------|---------|
-| 6.6.4   | 1         | 50%     |
-| 6.12.1  | 1         | 50%     |
+Zero info for selected period =(
 
 Kernel Major Ver.
 -----------------
 
 Linux kernel major version
 
-![Kernel Major Ver.](./images/pie_chart/os_kernel_major.svg)
-
-![Kernel Major Ver.](./images/line_chart/os_kernel_major.svg)
-
-| Version | Computers | Percent |
-|---------|-----------|---------|
-| 6.6     | 1         | 50%     |
-| 6.12    | 1         | 50%     |
+Zero info for selected period =(
 
 Arch
 ----
 
 OS architecture (x86_64, i586, etc.)
 
-![Arch](./images/pie_chart/os_arch.svg)
-
-![Arch](./images/line_chart/os_arch.svg)
-
-| Name   | Computers | Percent |
-|--------|-----------|---------|
-| x86_64 | 2         | 100%    |
+Zero info for selected period =(
 
 DE
 --
 
 Desktop Environment
 
-![DE](./images/pie_chart/os_de.svg)
-
-![DE](./images/line_chart/os_de.svg)
-
-| Name | Computers | Percent |
-|------|-----------|---------|
-| KDE5 | 1         | 50%     |
-| KDE  | 1         | 50%     |
+Zero info for selected period =(
 
 Display Server
 --------------
 
 X11 or Wayland
 
-![Display Server](./images/pie_chart/os_display_server.svg)
-
-![Display Server](./images/line_chart/os_display_server.svg)
-
-| Name | Computers | Percent |
-|------|-----------|---------|
-| X11  | 2         | 100%    |
+Zero info for selected period =(
 
 Display Manager
 ---------------
 
 SDDM, LightDM, etc.
 
-![Display Manager](./images/pie_chart/os_display_manager.svg)
-
-![Display Manager](./images/line_chart/os_display_manager.svg)
-
-| Name | Computers | Percent |
-|------|-----------|---------|
-| SDDM | 2         | 100%    |
+Zero info for selected period =(
 
 OS Lang
 -------
 
 Language
 
-![OS Lang](./images/pie_chart/os_lang.svg)
-
-![OS Lang](./images/line_chart/os_lang.svg)
-
-| Lang  | Computers | Percent |
-|-------|-----------|---------|
-| en_US | 2         | 100%    |
+Zero info for selected period =(
 
 Boot Mode
 ---------
 
 EFI or BIOS
 
-![Boot Mode](./images/pie_chart/os_boot_mode.svg)
-
-![Boot Mode](./images/line_chart/os_boot_mode.svg)
-
-| Mode | Computers | Percent |
-|------|-----------|---------|
-| EFI  | 2         | 100%    |
+Zero info for selected period =(
 
 Filesystem
 ----------
 
 Type of filesystem
 
-![Filesystem](./images/pie_chart/os_filesystem.svg)
-
-![Filesystem](./images/line_chart/os_filesystem.svg)
-
-| Type | Computers | Percent |
-|------|-----------|---------|
-| Xfs  | 1         | 50%     |
-| Ext4 | 1         | 50%     |
+Zero info for selected period =(
 
 Part. scheme
 ------------
 
 Scheme of partitioning
 
-![Part. scheme](./images/pie_chart/os_part_scheme.svg)
-
-![Part. scheme](./images/line_chart/os_part_scheme.svg)
-
-| Type | Computers | Percent |
-|------|-----------|---------|
-| GPT  | 2         | 100%    |
+Zero info for selected period =(
 
 Dual Boot with Linux/BSD
 ------------------------
 
 Hosting more than one Linux/BSD
 
-![Dual Boot with Linux/BSD](./images/pie_chart/os_dual_boot.svg)
-
-![Dual Boot with Linux/BSD](./images/line_chart/os_dual_boot.svg)
-
-| Dual boot | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 1         | 50%     |
-| No        | 1         | 50%     |
+Zero info for selected period =(
 
 Dual Boot (Win)
 ---------------
 
 Hosting Linux and Windows
 
-![Dual Boot (Win)](./images/pie_chart/os_dual_boot_win.svg)
-
-![Dual Boot (Win)](./images/line_chart/os_dual_boot_win.svg)
-
-| Dual boot | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 1         | 50%     |
-| No        | 1         | 50%     |
+Zero info for selected period =(
 
 Board
 -----
@@ -368,192 +271,98 @@ Vendor
 
 Motherboard manufacturer
 
-![Vendor](./images/pie_chart/node_vendor.svg)
-
-![Vendor](./images/line_chart/node_vendor.svg)
-
-| Name   | Computers | Percent |
-|--------|-----------|---------|
-| Lenovo | 1         | 50%     |
-| Dell   | 1         | 50%     |
+Zero info for selected period =(
 
 Model
 -----
 
 Motherboard model
 
-![Model](./images/pie_chart/node_model.svg)
-
-![Model](./images/line_chart/node_model.svg)
-
-| Name                                 | Computers | Percent |
-|--------------------------------------|-----------|---------|
-| Lenovo ThinkPad T14 Gen 1 20UD000HUS | 1         | 50%     |
-| Dell OptiPlex 3060                   | 1         | 50%     |
+Zero info for selected period =(
 
 Model Family
 ------------
 
 Motherboard model prefix
 
-![Model Family](./images/pie_chart/node_model_family.svg)
-
-![Model Family](./images/line_chart/node_model_family.svg)
-
-| Name            | Computers | Percent |
-|-----------------|-----------|---------|
-| Lenovo ThinkPad | 1         | 50%     |
-| Dell OptiPlex   | 1         | 50%     |
+Zero info for selected period =(
 
 MFG Year
 --------
 
 Motherboard manufacture year
 
-![MFG Year](./images/pie_chart/node_year.svg)
-
-![MFG Year](./images/line_chart/node_year.svg)
-
-| Year | Computers | Percent |
-|------|-----------|---------|
-| 2020 | 1         | 50%     |
-| 2019 | 1         | 50%     |
+Zero info for selected period =(
 
 Form Factor
 -----------
 
 Physical design of the computer
 
-![Form Factor](./images/pie_chart/node_formfactor.svg)
-
-![Form Factor](./images/line_chart/node_formfactor.svg)
-
-| Name     | Computers | Percent |
-|----------|-----------|---------|
-| Desktop  | 1         | 50%     |
-| Notebook | 1         | 50%     |
+Zero info for selected period =(
 
 Secure Boot
 -----------
 
 Enabled or disabled
 
-![Secure Boot](./images/pie_chart/node_secureboot.svg)
-
-![Secure Boot](./images/line_chart/node_secureboot.svg)
-
-| State    | Computers | Percent |
-|----------|-----------|---------|
-| Disabled | 2         | 100%    |
+Zero info for selected period =(
 
 Coreboot
 --------
 
 Have coreboot on board
 
-![Coreboot](./images/pie_chart/node_coreboot.svg)
-
-![Coreboot](./images/line_chart/node_coreboot.svg)
-
-| Used | Computers | Percent |
-|------|-----------|---------|
-| No   | 2         | 100%    |
+Zero info for selected period =(
 
 RAM Size
 --------
 
 Total RAM memory
 
-![RAM Size](./images/pie_chart/node_ram_total.svg)
-
-![RAM Size](./images/line_chart/node_ram_total.svg)
-
-| Size in GB | Computers | Percent |
-|------------|-----------|---------|
-| 16.01-24.0 | 1         | 50%     |
-| 8.01-16.0  | 1         | 50%     |
+Zero info for selected period =(
 
 RAM Used
 --------
 
 Used RAM memory
 
-![RAM Used](./images/pie_chart/node_ram_used.svg)
-
-![RAM Used](./images/line_chart/node_ram_used.svg)
-
-| Used GB  | Computers | Percent |
-|----------|-----------|---------|
-| 4.01-8.0 | 1         | 50%     |
-| 1.01-2.0 | 1         | 50%     |
+Zero info for selected period =(
 
 Total Drives
 ------------
 
 Number of drives on board
 
-![Total Drives](./images/pie_chart/node_total_drives.svg)
-
-![Total Drives](./images/line_chart/node_total_drives.svg)
-
-| Drives | Computers | Percent |
-|--------|-----------|---------|
-| 1      | 2         | 100%    |
+Zero info for selected period =(
 
 Has CD-ROM
 ----------
 
 Has CD-ROM on board
 
-![Has CD-ROM](./images/pie_chart/node_has_cdrom.svg)
-
-![Has CD-ROM](./images/line_chart/node_has_cdrom.svg)
-
-| Presented | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 1         | 50%     |
-| No        | 1         | 50%     |
+Zero info for selected period =(
 
 Has Ethernet
 ------------
 
 Has Ethernet on board
 
-![Has Ethernet](./images/pie_chart/node_has_ethernet.svg)
-
-![Has Ethernet](./images/line_chart/node_has_ethernet.svg)
-
-| Presented | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 2         | 100%    |
+Zero info for selected period =(
 
 Has WiFi
 --------
 
 Has WiFi module
 
-![Has WiFi](./images/pie_chart/node_has_wifi.svg)
-
-![Has WiFi](./images/line_chart/node_has_wifi.svg)
-
-| Presented | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 1         | 50%     |
-| No        | 1         | 50%     |
+Zero info for selected period =(
 
 Has Bluetooth
 -------------
 
 Has Bluetooth module
 
-![Has Bluetooth](./images/pie_chart/node_has_bluetooth.svg)
-
-![Has Bluetooth](./images/line_chart/node_has_bluetooth.svg)
-
-| Presented | Computers | Percent |
-|-----------|-----------|---------|
-| Yes       | 1         | 50%     |
-| No        | 1         | 50%     |
+Zero info for selected period =(
 
 Location
 --------
@@ -563,28 +372,14 @@ Country
 
 Geographic location (country)
 
-![Country](./images/pie_chart/node_location.svg)
-
-![Country](./images/line_chart/node_location.svg)
-
-| Country | Computers | Percent |
-|---------|-----------|---------|
-| USA     | 1         | 50%     |
-| Serbia  | 1         | 50%     |
+Zero info for selected period =(
 
 City
 ----
 
 Geographic location (city)
 
-![City](./images/pie_chart/node_city.svg)
-
-![City](./images/line_chart/node_city.svg)
-
-| City      | Computers | Percent |
-|-----------|-----------|---------|
-| Pikeville | 1         | 50%     |
-| Novi Sad  | 1         | 50%     |
+Zero info for selected period =(
 
 Drives
 ------
@@ -594,28 +389,14 @@ Drive Vendor
 
 Hard drive vendors
 
-![Drive Vendor](./images/pie_chart/drive_vendor.svg)
-
-![Drive Vendor](./images/line_chart/drive_vendor.svg)
-
-| Vendor                      | Computers | Drives | Percent |
-|-----------------------------|-----------|--------|---------|
-| Plextor                     | 1         | 1      | 50%     |
-| Kingston Technology Company | 1         | 1      | 50%     |
+Zero info for selected period =(
 
 Drive Model
 -----------
 
 Hard drive models
 
-![Drive Model](./images/pie_chart/drive_model.svg)
-
-![Drive Model](./images/line_chart/drive_model.svg)
-
-| Model                                 | Computers | Percent |
-|---------------------------------------|-----------|---------|
-| Plextor PX-512M8VC 512GB SSD          | 1         | 50%     |
-| Kingston Company A2000 NVMe SSD 500GB | 1         | 50%     |
+Zero info for selected period =(
 
 HDD Vendor
 ----------
@@ -629,82 +410,42 @@ SSD Vendor
 
 Solid state drive vendors
 
-![SSD Vendor](./images/pie_chart/drive_ssd_vendor.svg)
-
-![SSD Vendor](./images/line_chart/drive_ssd_vendor.svg)
-
-| Vendor  | Computers | Drives | Percent |
-|---------|-----------|--------|---------|
-| Plextor | 1         | 1      | 100%    |
+Zero info for selected period =(
 
 Drive Kind
 ----------
 
 HDD or SSD
 
-![Drive Kind](./images/pie_chart/drive_kind.svg)
-
-![Drive Kind](./images/line_chart/drive_kind.svg)
-
-| Kind | Computers | Drives | Percent |
-|------|-----------|--------|---------|
-| NVMe | 1         | 1      | 50%     |
-| SSD  | 1         | 1      | 50%     |
+Zero info for selected period =(
 
 Drive Connector
 ---------------
 
 SATA, SAS, NVMe, etc.
 
-![Drive Connector](./images/pie_chart/drive_bus.svg)
-
-![Drive Connector](./images/line_chart/drive_bus.svg)
-
-| Type | Computers | Drives | Percent |
-|------|-----------|--------|---------|
-| NVMe | 1         | 1      | 50%     |
-| SATA | 1         | 1      | 50%     |
+Zero info for selected period =(
 
 Drive Size
 ----------
 
 Size of hard drive
 
-![Drive Size](./images/pie_chart/drive_size.svg)
-
-![Drive Size](./images/line_chart/drive_size.svg)
-
-| Size in TB | Computers | Drives | Percent |
-|------------|-----------|--------|---------|
-| 0.51-1.0   | 1         | 1      | 100%    |
+Zero info for selected period =(
 
 Space Total
 -----------
 
 Amount of disk space available on the file system
 
-![Space Total](./images/pie_chart/drive_space_total.svg)
-
-![Space Total](./images/line_chart/drive_space_total.svg)
-
-| Size in GB | Computers | Percent |
-|------------|-----------|---------|
-| 101-250    | 1         | 50%     |
-| 501-1000   | 1         | 50%     |
+Zero info for selected period =(
 
 Space Used
 ----------
 
 Amount of used disk space
 
-![Space Used](./images/pie_chart/drive_space_used.svg)
-
-![Space Used](./images/line_chart/drive_space_used.svg)
-
-| Used GB | Computers | Percent |
-|---------|-----------|---------|
-| 251-500 | 1         | 50%     |
-| 1-20    | 1         | 50%     |
+Zero info for selected period =(
 
 Malfunc. Drives
 ---------------
@@ -753,13 +494,7 @@ Drive Status
 
 Number of failed and malfunc. drives
 
-![Drive Status](./images/pie_chart/drive_status.svg)
-
-![Drive Status](./images/line_chart/drive_status.svg)
-
-| Status | Computers | Drives | Percent |
-|--------|-----------|--------|---------|
-| Works  | 2         | 2      | 100%    |
+Zero info for selected period =(
 
 Storage controller
 ------------------
@@ -769,42 +504,21 @@ Storage Vendor
 
 Storage controller vendors
 
-![Storage Vendor](./images/pie_chart/storage_vendor.svg)
-
-![Storage Vendor](./images/line_chart/storage_vendor.svg)
-
-| Vendor                      | Computers | Percent |
-|-----------------------------|-----------|---------|
-| Kingston Technology Company | 1         | 50%     |
-| Intel                       | 1         | 50%     |
+Zero info for selected period =(
 
 Storage Model
 -------------
 
 Storage controller models
 
-![Storage Model](./images/pie_chart/storage_model.svg)
-
-![Storage Model](./images/line_chart/storage_model.svg)
-
-| Model                                      | Computers | Percent |
-|--------------------------------------------|-----------|---------|
-| Kingston Company A2000 NVMe SSD [SM2263EN] | 1         | 50%     |
-| Intel SATA Controller [RAID mode]          | 1         | 50%     |
+Zero info for selected period =(
 
 Storage Kind
 ------------
 
 Kind of storage controller (IDE, SATA, NVMe, SAS, ...)
 
-![Storage Kind](./images/pie_chart/storage_kind.svg)
-
-![Storage Kind](./images/line_chart/storage_kind.svg)
-
-| Kind | Computers | Percent |
-|------|-----------|---------|
-| RAID | 1         | 50%     |
-| NVMe | 1         | 50%     |
+Zero info for selected period =(
 
 Processor
 ---------
@@ -814,121 +528,63 @@ CPU Vendor
 
 Processor vendors
 
-![CPU Vendor](./images/pie_chart/cpu_vendor.svg)
-
-![CPU Vendor](./images/line_chart/cpu_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Intel  | 1         | 50%     |
-| AMD    | 1         | 50%     |
+Zero info for selected period =(
 
 CPU Model
 ---------
 
 Processor models
 
-![CPU Model](./images/pie_chart/cpu_model.svg)
-
-![CPU Model](./images/line_chart/cpu_model.svg)
-
-| Model                                      | Computers | Percent |
-|--------------------------------------------|-----------|---------|
-| Intel Core i7-8700 CPU @ 3.20GHz           | 1         | 50%     |
-| AMD Ryzen 5 PRO 4650U with Radeon Graphics | 1         | 50%     |
+Zero info for selected period =(
 
 CPU Model Family
 ----------------
 
 Processor model prefix
 
-![CPU Model Family](./images/pie_chart/cpu_family.svg)
-
-![CPU Model Family](./images/line_chart/cpu_family.svg)
-
-| Model           | Computers | Percent |
-|-----------------|-----------|---------|
-| Intel Core i7   | 1         | 50%     |
-| AMD Ryzen 5 PRO | 1         | 50%     |
+Zero info for selected period =(
 
 CPU Cores
 ---------
 
 Number of processor cores
 
-![CPU Cores](./images/pie_chart/cpu_cores.svg)
-
-![CPU Cores](./images/line_chart/cpu_cores.svg)
-
-| Number | Computers | Percent |
-|--------|-----------|---------|
-| 6      | 2         | 100%    |
+Zero info for selected period =(
 
 CPU Sockets
 -----------
 
 Number of sockets
 
-![CPU Sockets](./images/pie_chart/cpu_sockets.svg)
-
-![CPU Sockets](./images/line_chart/cpu_sockets.svg)
-
-| Number | Computers | Percent |
-|--------|-----------|---------|
-| 1      | 2         | 100%    |
+Zero info for selected period =(
 
 CPU Threads
 -----------
 
 Threads per core (Hyper-Threading)
 
-![CPU Threads](./images/pie_chart/cpu_threads.svg)
-
-![CPU Threads](./images/line_chart/cpu_threads.svg)
-
-| Number | Computers | Percent |
-|--------|-----------|---------|
-| 2      | 2         | 100%    |
+Zero info for selected period =(
 
 CPU Op-Modes
 ------------
 
 CPU Operation Modes (32-bit, 64-bit)
 
-![CPU Op-Modes](./images/pie_chart/cpu_op_modes.svg)
-
-![CPU Op-Modes](./images/line_chart/cpu_op_modes.svg)
-
-| Op mode        | Computers | Percent |
-|----------------|-----------|---------|
-| 32-bit, 64-bit | 2         | 100%    |
+Zero info for selected period =(
 
 CPU Microcode
 -------------
 
 Microcode number
 
-![CPU Microcode](./images/pie_chart/cpu_microcode.svg)
-
-![CPU Microcode](./images/line_chart/cpu_microcode.svg)
-
-| Number  | Computers | Percent |
-|---------|-----------|---------|
-| Unknown | 2         | 100%    |
+Zero info for selected period =(
 
 CPU Microarch
 -------------
 
 Microarchitecture
 
-![CPU Microarch](./images/pie_chart/cpu_microarch.svg)
-
-![CPU Microarch](./images/line_chart/cpu_microarch.svg)
-
-| Name     | Computers | Percent |
-|----------|-----------|---------|
-| Zen 2    | 1         | 50%     |
-| KabyLake | 1         | 50%     |
+Zero info for selected period =(
 
 Graphics
 --------
@@ -938,69 +594,35 @@ GPU Vendor
 
 Vendors of graphics cards
 
-![GPU Vendor](./images/pie_chart/gpu_vendor.svg)
-
-![GPU Vendor](./images/line_chart/gpu_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Intel  | 1         | 50%     |
-| AMD    | 1         | 50%     |
+Zero info for selected period =(
 
 GPU Model
 ---------
 
 Graphics card models
 
-![GPU Model](./images/pie_chart/gpu_model.svg)
-
-![GPU Model](./images/line_chart/gpu_model.svg)
-
-| Model                                                       | Computers | Percent |
-|-------------------------------------------------------------|-----------|---------|
-| Intel CoffeeLake-S GT2 [UHD Graphics 630]                   | 1         | 50%     |
-| AMD Renoir [Radeon Vega Series / Radeon Vega Mobile Series] | 1         | 50%     |
+Zero info for selected period =(
 
 GPU Combo
 ---------
 
 Combinations of graphics cards
 
-![GPU Combo](./images/pie_chart/gpu_combo.svg)
-
-![GPU Combo](./images/line_chart/gpu_combo.svg)
-
-| Name      | Computers | Percent |
-|-----------|-----------|---------|
-| 1 x Intel | 1         | 50%     |
-| 1 x AMD   | 1         | 50%     |
+Zero info for selected period =(
 
 GPU Driver
 ----------
 
 Free vs proprietary
 
-![GPU Driver](./images/pie_chart/gpu_driver.svg)
-
-![GPU Driver](./images/line_chart/gpu_driver.svg)
-
-| Driver | Computers | Percent |
-|--------|-----------|---------|
-| Free   | 2         | 100%    |
+Zero info for selected period =(
 
 GPU Memory
 ----------
 
 Total video memory
 
-![GPU Memory](./images/pie_chart/gpu_memory.svg)
-
-![GPU Memory](./images/line_chart/gpu_memory.svg)
-
-| Size in GB | Computers | Percent |
-|------------|-----------|---------|
-| 0.01-0.5   | 1         | 50%     |
-| Unknown    | 1         | 50%     |
+Zero info for selected period =(
 
 Monitor
 -------
@@ -1010,131 +632,63 @@ Monitor Vendor
 
 Monitor vendors
 
-![Monitor Vendor](./images/pie_chart/mon_vendor.svg)
-
-![Monitor Vendor](./images/line_chart/mon_vendor.svg)
-
-| Vendor       | Computers | Percent |
-|--------------|-----------|---------|
-| MSI          | 1         | 33.33%  |
-| CHD          | 1         | 33.33%  |
-| AU Optronics | 1         | 33.33%  |
+Zero info for selected period =(
 
 Monitor Model
 -------------
 
 Monitor models
 
-![Monitor Model](./images/pie_chart/mon_model.svg)
-
-![Monitor Model](./images/line_chart/mon_model.svg)
-
-| Model                                                          | Computers | Percent |
-|----------------------------------------------------------------|-----------|---------|
-| MSI G32C4W MSI5DA6 1920x1080 698x393mm 31.5-inch               | 1         | 33.33%  |
-| CHD MNT CHD2700 1920x1080 598x336mm 27.0-inch                  | 1         | 33.33%  |
-| AU Optronics LCD Monitor AUO403D 1920x1080 309x174mm 14.0-inch | 1         | 33.33%  |
+Zero info for selected period =(
 
 Monitor Resolution
 ------------------
 
 Monitor screen resolution
 
-![Monitor Resolution](./images/pie_chart/mon_resolution.svg)
-
-![Monitor Resolution](./images/line_chart/mon_resolution.svg)
-
-| Resolution      | Computers | Percent |
-|-----------------|-----------|---------|
-| 1920x1080 (FHD) | 2         | 66.67%  |
-| 2560x1440 (QHD) | 1         | 33.33%  |
+Zero info for selected period =(
 
 Monitor Diagonal
 ----------------
 
 Diagonal size in inches
 
-![Monitor Diagonal](./images/pie_chart/mon_diagonal.svg)
-
-![Monitor Diagonal](./images/line_chart/mon_diagonal.svg)
-
-| Inches | Computers | Percent |
-|--------|-----------|---------|
-| 31     | 1         | 33.33%  |
-| 27     | 1         | 33.33%  |
-| 14     | 1         | 33.33%  |
+Zero info for selected period =(
 
 Monitor Width
 -------------
 
 Physical width
 
-![Monitor Width](./images/pie_chart/mon_width.svg)
-
-![Monitor Width](./images/line_chart/mon_width.svg)
-
-| Width in mm | Computers | Percent |
-|-------------|-----------|---------|
-| 601-700     | 1         | 33.33%  |
-| 501-600     | 1         | 33.33%  |
-| 301-350     | 1         | 33.33%  |
+Zero info for selected period =(
 
 Aspect Ratio
 ------------
 
 Proportional relationship between the width and the height
 
-![Aspect Ratio](./images/pie_chart/mon_ratio.svg)
-
-![Aspect Ratio](./images/line_chart/mon_ratio.svg)
-
-| Ratio | Computers | Percent |
-|-------|-----------|---------|
-| 16/9  | 2         | 100%    |
+Zero info for selected period =(
 
 Monitor Area
 ------------
 
 Area in inch²
 
-![Monitor Area](./images/pie_chart/mon_area.svg)
-
-![Monitor Area](./images/line_chart/mon_area.svg)
-
-| Area in inch² | Computers | Percent |
-|----------------|-----------|---------|
-| 81-90          | 1         | 33.33%  |
-| 351-500        | 1         | 33.33%  |
-| 301-350        | 1         | 33.33%  |
+Zero info for selected period =(
 
 Pixel Density
 -------------
 
 Pixels per inch
 
-![Pixel Density](./images/pie_chart/mon_density.svg)
-
-![Pixel Density](./images/line_chart/mon_density.svg)
-
-| Density | Computers | Percent |
-|---------|-----------|---------|
-| 121-160 | 1         | 33.33%  |
-| 101-120 | 1         | 33.33%  |
-| 51-100  | 1         | 33.33%  |
+Zero info for selected period =(
 
 Multiple Monitors
 -----------------
 
 Total monitors connected
 
-![Multiple Monitors](./images/pie_chart/mon_total.svg)
-
-![Multiple Monitors](./images/line_chart/mon_total.svg)
-
-| Total | Computers | Percent |
-|-------|-----------|---------|
-| 2     | 1         | 50%     |
-| 1     | 1         | 50%     |
+Zero info for selected period =(
 
 Network
 -------
@@ -1144,135 +698,70 @@ Net Controller Vendor
 
 Controller vendors
 
-![Net Controller Vendor](./images/pie_chart/net_vendor.svg)
-
-![Net Controller Vendor](./images/line_chart/net_vendor.svg)
-
-| Vendor                | Computers | Percent |
-|-----------------------|-----------|---------|
-| Realtek Semiconductor | 2         | 66.67%  |
-| Intel                 | 1         | 33.33%  |
+Zero info for selected period =(
 
 Net Controller Model
 --------------------
 
 Controller models
 
-![Net Controller Model](./images/pie_chart/net_model.svg)
-
-![Net Controller Model](./images/line_chart/net_model.svg)
-
-| Model                                                                  | Computers | Percent |
-|------------------------------------------------------------------------|-----------|---------|
-| Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller | 2         | 66.67%  |
-| Intel Wi-Fi 6 AX200                                                    | 1         | 33.33%  |
+Zero info for selected period =(
 
 Wireless Vendor
 ---------------
 
 Wireless vendors
 
-![Wireless Vendor](./images/pie_chart/net_wireless_vendor.svg)
-
-![Wireless Vendor](./images/line_chart/net_wireless_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Intel  | 1         | 100%    |
+Zero info for selected period =(
 
 Wireless Model
 --------------
 
 Wireless models
 
-![Wireless Model](./images/pie_chart/net_wireless_model.svg)
-
-![Wireless Model](./images/line_chart/net_wireless_model.svg)
-
-| Model               | Computers | Percent |
-|---------------------|-----------|---------|
-| Intel Wi-Fi 6 AX200 | 1         | 100%    |
+Zero info for selected period =(
 
 Ethernet Vendor
 ---------------
 
 Ethernet vendors
 
-![Ethernet Vendor](./images/pie_chart/net_ethernet_vendor.svg)
-
-![Ethernet Vendor](./images/line_chart/net_ethernet_vendor.svg)
-
-| Vendor                | Computers | Percent |
-|-----------------------|-----------|---------|
-| Realtek Semiconductor | 2         | 100%    |
+Zero info for selected period =(
 
 Ethernet Model
 --------------
 
 Ethernet models
 
-![Ethernet Model](./images/pie_chart/net_ethernet_model.svg)
-
-![Ethernet Model](./images/line_chart/net_ethernet_model.svg)
-
-| Model                                                                  | Computers | Percent |
-|------------------------------------------------------------------------|-----------|---------|
-| Realtek RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller | 2         | 100%    |
+Zero info for selected period =(
 
 Net Controller Kind
 -------------------
 
 Ethernet, WiFi or modem
 
-![Net Controller Kind](./images/pie_chart/net_kind.svg)
-
-![Net Controller Kind](./images/line_chart/net_kind.svg)
-
-| Kind     | Computers | Percent |
-|----------|-----------|---------|
-| Ethernet | 2         | 66.67%  |
-| WiFi     | 1         | 33.33%  |
+Zero info for selected period =(
 
 Used Controller
 ---------------
 
 Currently used network controller
 
-![Used Controller](./images/pie_chart/net_used.svg)
-
-![Used Controller](./images/line_chart/net_used.svg)
-
-| Kind     | Computers | Percent |
-|----------|-----------|---------|
-| WiFi     | 1         | 50%     |
-| Ethernet | 1         | 50%     |
+Zero info for selected period =(
 
 NICs
 ----
 
 Total network controllers on board
 
-![NICs](./images/pie_chart/net_nics.svg)
-
-![NICs](./images/line_chart/net_nics.svg)
-
-| Total | Computers | Percent |
-|-------|-----------|---------|
-| 3     | 1         | 50%     |
-| 1     | 1         | 50%     |
+Zero info for selected period =(
 
 IPv6
 ----
 
 IPv6 vs IPv4
 
-![IPv6](./images/pie_chart/node_ipv6.svg)
-
-![IPv6](./images/line_chart/node_ipv6.svg)
-
-| Used | Computers | Percent |
-|------|-----------|---------|
-| No   | 2         | 100%    |
+Zero info for selected period =(
 
 Bluetooth
 ---------
@@ -1282,26 +771,14 @@ Bluetooth Vendor
 
 Controller vendors
 
-![Bluetooth Vendor](./images/pie_chart/bt_vendor.svg)
-
-![Bluetooth Vendor](./images/line_chart/bt_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Intel  | 1         | 100%    |
+Zero info for selected period =(
 
 Bluetooth Model
 ---------------
 
 Controller models
 
-![Bluetooth Model](./images/pie_chart/bt_model.svg)
-
-![Bluetooth Model](./images/line_chart/bt_model.svg)
-
-| Model                 | Computers | Percent |
-|-----------------------|-----------|---------|
-| Intel AX200 Bluetooth | 1         | 100%    |
+Zero info for selected period =(
 
 Sound
 -----
@@ -1311,29 +788,14 @@ Sound Vendor
 
 Sound card vendors
 
-![Sound Vendor](./images/pie_chart/snd_vendor.svg)
-
-![Sound Vendor](./images/line_chart/snd_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Intel  | 1         | 50%     |
-| AMD    | 1         | 50%     |
+Zero info for selected period =(
 
 Sound Model
 -----------
 
 Sound card models
 
-![Sound Model](./images/pie_chart/snd_model.svg)
-
-![Sound Model](./images/line_chart/snd_model.svg)
-
-| Model                                              | Computers | Percent |
-|----------------------------------------------------|-----------|---------|
-| Intel Cannon Lake PCH cAVS                         | 1         | 33.33%  |
-| AMD Renoir Radeon High Definition Audio Controller | 1         | 33.33%  |
-| AMD Family 17h/19h/1ah HD Audio Controller         | 1         | 33.33%  |
+Zero info for selected period =(
 
 Memory
 ------
@@ -1343,85 +805,42 @@ Memory Vendor
 
 Memory module vendors
 
-![Memory Vendor](./images/pie_chart/memory_vendor.svg)
-
-![Memory Vendor](./images/line_chart/memory_vendor.svg)
-
-| Vendor            | Computers | Percent |
-|-------------------|-----------|---------|
-| SK hynix          | 1         | 33.33%  |
-| Micron Technology | 1         | 33.33%  |
-| Crucial           | 1         | 33.33%  |
+Zero info for selected period =(
 
 Memory Model
 ------------
 
 Memory module models
 
-![Memory Model](./images/pie_chart/memory_model.svg)
-
-![Memory Model](./images/line_chart/memory_model.svg)
-
-| Model                                                  | Computers | Percent |
-|--------------------------------------------------------|-----------|---------|
-| SK hynix RAM HMA82GU6JJR8N-VK 16GB DIMM DDR4 2667MT/s  | 1         | 33.33%  |
-| Micron RAM 4ATF1G64HZ-3G2E1 8GB SODIMM DDR4 3200MT/s   | 1         | 33.33%  |
-| Crucial RAM CT8G4SFRA32A.C8FR 8GB SODIMM DDR4 3200MT/s | 1         | 33.33%  |
+Zero info for selected period =(
 
 Memory Kind
 -----------
 
 Memory module kinds
 
-![Memory Kind](./images/pie_chart/memory_kind.svg)
-
-![Memory Kind](./images/line_chart/memory_kind.svg)
-
-| Kind | Computers | Percent |
-|------|-----------|---------|
-| DDR4 | 2         | 100%    |
+Zero info for selected period =(
 
 Memory Form Factor
 ------------------
 
 Physical design of the memory module
 
-![Memory Form Factor](./images/pie_chart/memory_formfactor.svg)
-
-![Memory Form Factor](./images/line_chart/memory_formfactor.svg)
-
-| Name   | Computers | Percent |
-|--------|-----------|---------|
-| SODIMM | 1         | 50%     |
-| DIMM   | 1         | 50%     |
+Zero info for selected period =(
 
 Memory Size
 -----------
 
 Memory module size
 
-![Memory Size](./images/pie_chart/memory_size.svg)
-
-![Memory Size](./images/line_chart/memory_size.svg)
-
-| Size  | Computers | Percent |
-|-------|-----------|---------|
-| 16384 | 1         | 50%     |
-| 8192  | 1         | 50%     |
+Zero info for selected period =(
 
 Memory Speed
 ------------
 
 Memory module speed
 
-![Memory Speed](./images/pie_chart/memory_speed.svg)
-
-![Memory Speed](./images/line_chart/memory_speed.svg)
-
-| Speed | Computers | Percent |
-|-------|-----------|---------|
-| 3200  | 1         | 50%     |
-| 2667  | 1         | 50%     |
+Zero info for selected period =(
 
 Printers & scanners
 -------------------
@@ -1431,26 +850,14 @@ Printer Vendor
 
 Printer device vendors
 
-![Printer Vendor](./images/pie_chart/printer_vendor.svg)
-
-![Printer Vendor](./images/line_chart/printer_vendor.svg)
-
-| Vendor | Computers | Percent |
-|--------|-----------|---------|
-| Canon  | 1         | 100%    |
+Zero info for selected period =(
 
 Printer Model
 -------------
 
 Printer device models
 
-![Printer Model](./images/pie_chart/printer_model.svg)
-
-![Printer Model](./images/line_chart/printer_model.svg)
-
-| Model                     | Computers | Percent |
-|---------------------------|-----------|---------|
-| Canon PIXMA MG2500 Series | 1         | 100%    |
+Zero info for selected period =(
 
 Scanner Vendor
 --------------
@@ -1474,26 +881,14 @@ Camera Vendor
 
 Camera device vendors
 
-![Camera Vendor](./images/pie_chart/camera_vendor.svg)
-
-![Camera Vendor](./images/line_chart/camera_vendor.svg)
-
-| Vendor            | Computers | Percent |
-|-------------------|-----------|---------|
-| Bison Electronics | 1         | 100%    |
+Zero info for selected period =(
 
 Camera Model
 ------------
 
 Camera device models
 
-![Camera Model](./images/pie_chart/camera_model.svg)
-
-![Camera Model](./images/line_chart/camera_model.svg)
-
-| Model                   | Computers | Percent |
-|-------------------------|-----------|---------|
-| Bison Integrated Camera | 1         | 100%    |
+Zero info for selected period =(
 
 Security
 --------
@@ -1503,26 +898,14 @@ Fingerprint Vendor
 
 Fingerprint sensor vendors
 
-![Fingerprint Vendor](./images/pie_chart/fingerprint_vendor.svg)
-
-![Fingerprint Vendor](./images/line_chart/fingerprint_vendor.svg)
-
-| Vendor    | Computers | Percent |
-|-----------|-----------|---------|
-| Synaptics | 1         | 100%    |
+Zero info for selected period =(
 
 Fingerprint Model
 -----------------
 
 Fingerprint sensor models
 
-![Fingerprint Model](./images/pie_chart/fingerprint_model.svg)
-
-![Fingerprint Model](./images/line_chart/fingerprint_model.svg)
-
-| Model                                             | Computers | Percent |
-|---------------------------------------------------|-----------|---------|
-| Synaptics Prometheus MIS Touch Fingerprint Reader | 1         | 100%    |
+Zero info for selected period =(
 
 Chipcard Vendor
 ---------------
@@ -1546,25 +929,12 @@ Unsupported Devices
 
 Total unsupported devices on board
 
-![Unsupported Devices](./images/pie_chart/device_unsupported.svg)
-
-![Unsupported Devices](./images/line_chart/device_unsupported.svg)
-
-| Total | Computers | Percent |
-|-------|-----------|---------|
-| 1     | 1         | 50%     |
-| 0     | 1         | 50%     |
+Zero info for selected period =(
 
 Unsupported Device Types
 ------------------------
 
 Types of unsupported devices
 
-![Unsupported Device Types](./images/pie_chart/device_unsupported_type.svg)
-
-![Unsupported Device Types](./images/line_chart/device_unsupported_type.svg)
-
-| Type               | Computers | Percent |
-|--------------------|-----------|---------|
-| Fingerprint reader | 1         | 100%    |
+Zero info for selected period =(
 
